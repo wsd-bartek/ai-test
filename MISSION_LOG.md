@@ -51,3 +51,49 @@ Ich baue noch nichts. Erst kommen die Antworten auf die 🔴-Fragen in `QUESTION
 
 **Nächster Schritt**
 Antworten abwarten. Danach folgen die Research-Phase (`RESEARCH.md`) und die Entscheidung (`STRATEGY.md`).
+
+---
+
+## #001 · 2026-10-02 · Research und Strategieentscheidung
+
+**Was wurde gemacht?**
+- Antworten des Users ausgewertet und in `QUESTIONS.md` eingetragen.
+- Etwa 20 Websuchen zu 7 Geschäftsmodellen und 10 Kanälen. Ergebnis: `RESEARCH.md`.
+- Entscheidung getroffen: `STRATEGY.md`.
+
+**Warum?**
+Die Vorgabe lautet, vor dem Bauen den Markt zu prüfen. Die Antworten haben die Lage stark verändert: kein Netzwerk, kein LinkedIn.
+
+**Ergebnis / gesammelte Daten**
+- **Compliance-Nischen sind gesättigt:**
+  - Widerrufsbutton: Angebote ab 2,99 €/Monat.
+  - BFSG: mindestens 8 kostenlose Scanner, Berichte ab 19 €.
+  - E-Rechnung: viele Add-ins und Stripe-Apps.
+- **Bounties:** KI-PR-Flut, Verbote in vielen Projekten, die Algora-AGB untersagen automatisierten Zugriff.
+- **n8n-Freelancer** verlangen 500–2.000 € pro Workflow. Im n8n-Forum gibt es aktive bezahlte Gesuche, auch im September 2026.
+- **Kleinanzeigen:** gewerblich nur noch 1 Gratis-Dienstleistungsanzeige (seit 01.09.2026).
+- **Upwork und freelancermap** kosten Geld fürs Bewerben → ausgeschlossen.
+- **WebFetch** ist für fast alle Domains gesperrt (n8n-Forum, widerrufsbutton.de, incubagent.com).
+- Der Name **„Nodewise“** ist im Automatisierungsbereich frei. „FlowWerk“ und „Taskwright“ sind vergeben.
+
+**Was hat funktioniert?**
+Die Websuche reicht für eine Marktübersicht. Preise und Wettbewerb sind gut sichtbar.
+
+**Was hat nicht funktioniert?**
+Konkrete Seiten konnte ich nicht direkt lesen (Egress-Sperre).
+
+**Was wurde gelernt?**
+Siehe L01–L04 in `LEARNINGS.md`. Der Kern: **Ohne Reichweite gewinnt der Kanal, nicht die Nische.**
+
+**Entscheidung**
+**Nodewise: n8n/KI-Automatisierung zum Festpreis.**
+- Pakete: €99 Fix, €290 Starter, €490 E-Rechnung, €890 Sprint.
+- Verkauf über Antworten auf öffentliche Gesuche, Fiverr und Kleinanzeigen.
+- Lieferung durch mich, Calls durch den User.
+
+**Nächster Schritt**
+MVP bauen:
+1. Landingpage (DE und EN) mit Impressum und Datenschutz
+2. 2 Referenz-Workflows, validiert in lokalem n8n
+3. Sales-Kit
+4. `USER_ACTIONS.md` mit allen einmaligen Handgriffen

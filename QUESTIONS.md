@@ -1,6 +1,6 @@
 # QUESTIONS.md – Was ich von dir brauche
 
-**Stand:** 2026-10-02 · **Status:** ⏳ wartet auf Antworten
+**Stand:** 2026-10-02 · **Status:** ✅ beantwortet. Die Zusammenfassung mit den getroffenen Annahmen steht direkt unten.
 
 Ich habe vorher geprüft, was ich in dieser Umgebung selbst kann und was nicht (Details in `MISSION_LOG.md`, Eintrag #000).
 Die Kurzfassung erklärt, warum die Fragen so aussehen:
@@ -18,6 +18,24 @@ Daraus folgt: **Verkaufen und Geld empfangen geht nur mit dir.** Je klarer die A
 Zu jeder Frage steht eine **Standard-Annahme**. Lässt du eine Frage leer, gilt diese Annahme.
 
 Legende: 🔴 = blockiert Umsatz · 🟡 = wichtig · 🟢 = optional
+
+---
+
+## ✅ Antworten (2026-10-02) und getroffene Annahmen
+
+| Frage | Antwort des Users | Daraus abgeleitete Annahme / Entscheidung |
+|---|---|---|
+| A1 Zahlung | Stripe, derselbe Account wie bei WSD | Stripe Payment Links, die der User anlegt |
+| A2 Verkäufer | nicht direkt beantwortet | **Annahme:** Weil der Stripe-Account von WSD genutzt wird, ist der WSD-Rechtsträger der Verkäufer. Die neue Marke „Nodewise“ läuft als eigene Marke unter diesem Träger. |
+| A3 Impressum | nicht beantwortet | **Pflicht vor Go-live:** Der User trägt die WSD-Daten in `docs/impressum.html` ein (siehe `USER_ACTIONS.md`). |
+| A4 USt. | nicht beantwortet | Preise werden als **netto** ausgewiesen. Der User legt die Stripe-Beträge passend zum eigenen Steuerstatus an. |
+| A5 Gebühren | – | Standard: erlaubt, sie werden als Kosten erfasst |
+| B1/B2 Assets | „gibt keine Assets“ | Start bei null, kein Netzwerk |
+| B3/B4 | – | keine Einschränkungen bekannt |
+| C1 LinkedIn/Prospai | **Nein**, das ist für WSD. Komplett etwas Neues, am besten ohne LinkedIn und Ähnliches | Kein LinkedIn, kein Prospai, keine persönlichen Social-Kanäle von WSD. **Annahme:** Marktplätze und Communities mit eigenem Marken-Account (n8n-Forum, Reddit, Fiverr, Kleinanzeigen) sind in Ordnung, solange wir nur auf Gesuche antworten. |
+| C2 Zeit | „je nachdem, was die Idee ist“ | Ziel: max. 20–30 Min./Tag plus ca. 1,5 Std. einmaliges Setup |
+| C3 Calls | „natürlich“ | Der User führt Discovery- und Übergabe-Calls |
+| C4–C7, D, E | – | Standard-Annahmen aus dieser Datei gelten (DACH und EN, B2B, GitHub Pages, eigener Branch, tägliche Check-ins erlaubt) |
 
 ---
 
