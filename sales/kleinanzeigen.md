@@ -27,6 +27,6 @@ Festpreise:
 
 Ablauf: Du beschreibst kurz deinen Ablauf, ich schicke dir innerhalb von 24 h einen Plan und den Festpreis. Übergabe per Videocall, Nachbesserung inklusive. Ohne Zufriedenheit gibt's das Geld zurück.
 
-Mehr Infos: https://wsd-bartek.github.io/ai-test/
+Mehr Infos: https://wowora.de/
 Hinweis: technische Umsetzung, keine Steuerberatung.
 ```

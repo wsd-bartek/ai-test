@@ -1,45 +1,72 @@
 # USER_ACTIONS.md: Was nur du tun kannst
 
-Alles ist so vorbereitet, dass du nur noch klicken, kopieren und einfügen musst. Der Rest liegt bei mir.
-**Schick mir die Ergebnisse einfach im Chat**, z. B. „E-Mail: …, Stripe fix: …“. Ich baue alles ein.
+Alles ist vorbereitet. Schick mir Ergebnisse oder Fragen einfach im Chat.
+
+**Stand 2026-10-03:**
+- ✅ Impressum ist ausgefüllt.
+- ✅ Domain `wowora.de` ist eingetragen.
+- ✅ Die Marke heißt jetzt **Wowora**.
+- ✅ Steuerstatus: regelbesteuert (19 % USt.).
+- ✅ Bis Stripe steht, läuft die Bezahlung auf Rechnung.
 
 ---
 
-## Block 1: Go-live (ca. 25 Min.) 🔴 blockiert jeden Umsatz
+## Block 1: Go-live (ca. 15 Min.) 🔴
 
-- [ ] **1. Marken-E-Mail anlegen** (kostenlos, z. B. Gmail): Vorschlag `nodewise.automation@gmail.com` oder ähnlich.
-  → Schick mir die Adresse.
-- [ ] **2. Impressum-Daten des Verkäufers (WSD)**: Name bzw. Firma und Rechtsform, Anschrift, ggf. vertretungsberechtigte Person, Registernummer, USt-IdNr.
-  → Schick mir die Daten oder einen Link zum bestehenden WSD-Impressum. Ohne Impressum darf die Seite nicht live gehen.
-- [ ] **3. Steuerstatus**: Regelbesteuert oder Kleinunternehmer? Davon hängen die Stripe-Beträge ab.
-- [ ] **4. Stripe Payment Links (4 Stück)** nach [`sales/stripe-payment-links.md`](sales/stripe-payment-links.md) anlegen.
-  → Schick mir die 4 URLs.
-- [ ] **5. GitHub Pages einschalten**:
-  1. Repo `wsd-bartek/ai-test` öffnen und auf **Settings → Pages** gehen.
-  2. Unter *Source* die Option „Deploy from a branch“ wählen.
-  3. Branch `claude/pensive-fermat-5pqh31`, Ordner `/docs` wählen und auf **Save** klicken.
-  4. Die Seite ist dann nach 1–2 Minuten unter `https://wsd-bartek.github.io/ai-test/` erreichbar.
-  5. **Erst einschalten, wenn das Impressum ausgefüllt ist** (Schritt 2). Ich sage dir Bescheid, sobald es so weit ist.
+- [ ] **1. E-Mail `hallo@wowora.de` einrichten.**
+  Die Domain nutzt bereits Microsoft 365. So richtest du die Adresse ein:
+  1. Im Microsoft 365 Admin Center auf **Benutzer → Aktive Benutzer** gehen und dein Konto auswählen.
+  2. Unter **E-Mail-Aliase verwalten** den Alias `hallo@wowora.de` hinzufügen. Das ist kostenlos.
 
-## Block 2: Verkaufskanäle (ca. 45 Min., einmalig) 🟡
+  Willst du lieber eine andere Adresse nutzen? Dann sag mir, welche. Die Adresse steht im Impressum und muss funktionieren.
 
-Mit der Marken-E-Mail aus Schritt 1 legst du diese Accounts an. Die Texte findest du in [`sales/profiles.md`](sales/profiles.md).
-- [ ] **6. n8n-Community-Account** auf community.n8n.io anlegen (Profil-Bio und Website eintragen).
-- [ ] **7. Fiverr-Seller-Account** anlegen und **2 Gigs** nach [`sales/fiverr-gigs.md`](sales/fiverr-gigs.md) einstellen (EN und DE).
-- [ ] **8. Kleinanzeigen**: gewerbliches Konto anlegen, 1 Anzeige nach [`sales/kleinanzeigen.md`](sales/kleinanzeigen.md) einstellen.
-- [ ] **9. Optional:** Reddit- und Hacker-News-Account für die erlaubten Self-Promo-Threads (Texte in [`sales/proposals.md`](sales/proposals.md)).
+- [ ] **2. GitHub Pages einschalten.**
+  1. Im Repo `wsd-bartek/ai-test` auf **Settings → Pages** gehen.
+  2. Bei *Source* „Deploy from a branch“ wählen, dann Branch `claude/pensive-fermat-5pqh31` und Ordner `/docs`. Mit **Save** bestätigen.
+  3. Bei *Custom domain* `wowora.de` eintragen und auf **Save** klicken.
+  4. Sobald das Zertifikat da ist (einige Minuten bis wenige Stunden), **Enforce HTTPS** anhaken.
 
-## Block 3: Täglich (ca. 20–30 Min.) 🟢
+- [ ] **3. DNS bei GoDaddy umstellen** (Domain → DNS verwalten).
+  ⚠️ `wowora.de` zeigt aktuell auf **Lovable** (`185.158.133.1`). Nach der Umstellung ist die dortige Seite nicht mehr unter wowora.de erreichbar. Die **E-Mail-Einträge (MX, TXT/SPF) nicht anfassen**, dann läuft E-Mail normal weiter.
 
-- [ ] **Neue Gesuche finden**: Im n8n-Forum unter community.n8n.io/c/jobs und auf r/n8n bzw. r/forhire nach `[Hiring]` schauen. Passende Posts **in den Chat kopieren**, dann schreibe ich die Antwort plus Prototyp, und du postest sie.
-- [ ] **Nachrichten weiterleiten**: Anfragen von E-Mail, Fiverr oder Kleinanzeigen in den Chat kopieren. Ich formuliere die Antwort bzw. das Angebot.
-- [ ] **Bezahlte Aufträge**: Wenn Stripe eine Zahlung meldet, gibst du mir Bescheid. Ich liefere, du machst den Übergabe-Call.
+  | Typ | Name | Wert | Aktion |
+  |---|---|---|---|
+  | A | `@` | `185.158.133.1` | **löschen** |
+  | A | `@` | `185.199.108.153` | neu |
+  | A | `@` | `185.199.109.153` | neu |
+  | A | `@` | `185.199.110.153` | neu |
+  | A | `@` | `185.199.111.153` | neu |
+  | A | `www` | `185.158.133.1` | **löschen** |
+  | CNAME | `www` | `wsd-bartek.github.io` | neu |
+
+  Die Umstellung braucht meist 10–60 Minuten. Danach prüfe ich, ob alles läuft.
+
+- [ ] **4. USt-IdNr.:** Hast du eine? Falls ja, schick sie mir, denn dann muss sie ins Impressum.
+  Deine **Steuernummer** brauche ich erst für die erste Rechnung. Die kommt nie ins öffentliche Repo.
+
+## Block 2: Stripe (ca. 25 Min., parallel möglich) 🟡
+
+- [ ] **5. Neues Stripe-Konto für Wowora und 4 Zahlungslinks** nach [`sales/stripe-payment-links.md`](sales/stripe-payment-links.md) anlegen.
+  Das muss der Inhaber selbst machen (Identitätsprüfung). Danach schickst du mir die 4 Links.
+
+## Block 3: Verkaufskanäle (ca. 45 Min., einmalig) 🟡
+
+Mit `hallo@wowora.de` legst du diese Accounts an. Die Texte findest du in [`sales/profiles.md`](sales/profiles.md).
+- [ ] **6. Fiverr-Seller-Account** anlegen und 2 Gigs nach [`sales/fiverr-gigs.md`](sales/fiverr-gigs.md) einstellen. Das ist der wichtigste Kanal (siehe L08).
+- [ ] **7. n8n-Community-Account** anlegen und **einmal** den Post aus [`sales/proposals.md`](sales/proposals.md) (Abschnitt „n8n-Forum“) in der Kategorie *Jobs* veröffentlichen.
+- [ ] **8. Kleinanzeigen**: gewerbliches Konto anlegen und 1 Anzeige nach [`sales/kleinanzeigen.md`](sales/kleinanzeigen.md) einstellen.
+
+## Block 4: Täglich (ca. 15–20 Min.) 🟢
+
+- [ ] **Postfach und Fiverr checken.** Anfragen kopierst du in den Chat. Ich formuliere die Antwort bzw. das Angebot.
+- [ ] **Gesuche:** Ich prüfe jeden Morgen den Lead-Radar (`leads/radar.md`) und lege Antwortentwürfe in `leads/drafts/` ab. Du postest sie.
+- [ ] **Aufträge:** Sobald eine Buchung kommt, sagst du mir Bescheid. Ich erstelle Rechnung und Lieferung, du machst den Übergabe-Call.
 
 ---
 
 ## Was ich nicht tue (zur Sicherheit)
 
-- Ich gebe kein Geld aus und schließe keine Abos ab.
+- Ich gebe kein Geld aus und lege keine Konten in deinem Namen an.
 - Ich nutze kein LinkedIn und kein Prospai, und ich schreibe niemanden unaufgefordert an.
-- Ich lege keine Kundendaten im (öffentlichen) Repo ab.
-- Ich mache keine Rechts- oder Steuerberatung. Die Leistungsbedingungen und die Datenschutzerklärung sind sorgfältige Vorlagen, aber **keine anwaltliche Prüfung**. Wenn du bei WSD eine Rechtsberatung oder einen Rechtstexte-Dienst nutzt, lass sie dort kurz gegenlesen.
+- Ich lege keine Kundendaten und keine Steuernummer im (öffentlichen) Repo ab.
+- Ich mache keine Rechts- oder Steuerberatung. Datenschutzerklärung und Leistungsbedingungen sind sorgfältige Vorlagen, aber **keine anwaltliche Prüfung**.

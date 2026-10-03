@@ -4,7 +4,7 @@
 // Läuft in GitHub Actions (der Agent-Container hat keinen Zugriff auf diese Seiten).
 import { writeFileSync } from 'node:fs';
 
-const UA = 'nodewise-lead-radar/1.0 (+https://wsd-bartek.github.io/ai-test/)';
+const UA = 'wowora-lead-radar/1.0 (+https://wowora.de/)';
 const DAYS = 10;
 const since = Date.now() - DAYS * 864e5;
 const errors = [];

@@ -69,6 +69,6 @@ n8n workflow that pulls EU e-invoices (XRechnung UBL/CII, ZUGFeRD 1/2, Factur-X)
 
 ---
 
-**Du willst das angepasst haben,** z. B. für lexoffice, sevDesk oder DATEV, mit Freigabe-Workflow oder für den Rechnungsausgang? → **[Nodewise: n8n-Automatisierungen zum Festpreis](https://wsd-bartek.github.io/ai-test/)**
+**Du willst das angepasst haben,** z. B. für lexoffice, sevDesk oder DATEV, mit Freigabe-Workflow oder für den Rechnungsausgang? → **[Wowora: n8n-Automatisierungen zum Festpreis](https://wowora.de/)**
 
 Lizenz: MIT (`LICENSE`). Enthält tiny-inflate © Devon Govett, MIT (`src/LICENSE-tiny-inflate`).

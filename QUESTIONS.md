@@ -37,6 +37,15 @@ Legende: 🔴 = blockiert Umsatz · 🟡 = wichtig · 🟢 = optional
 | C3 Calls | „natürlich“ | Der User führt Discovery- und Übergabe-Calls |
 | C4–C7, D, E | – | Standard-Annahmen aus dieser Datei gelten (DACH und EN, B2B, GitHub Pages, eigener Branch, tägliche Check-ins erlaubt) |
 
+### Nachtrag 2026-10-03 (zweite Antwortrunde)
+
+| Frage | Antwort des Users | Umsetzung |
+|---|---|---|
+| E-Mail / Domain | „wowora.de, diese Domain habe ich, benutze das einfach“ | Website auf `wowora.de` (GitHub Pages, CNAME). Kontakt `hallo@wowora.de` als Alias in Microsoft 365 (die Domain hat bereits M365-MX). **Marke heißt jetzt „Wowora“**, damit Marke und Domain zusammenpassen. |
+| A2/A3 Verkäufer und Impressum | Massin El Khadri, Alter Keller 12, Dipperz | Impressum ausgefüllt (PLZ 36160 per Websuche ergänzt). Verkäufer ist **nicht WSD**, sondern das Einzelunternehmen. |
+| A4 USt. | „Einzelunternehmen, ganz normal“ | **Annahme:** Regelbesteuerung, 19 % USt. Preise netto ausgewiesen, Stripe-Beträge brutto. USt-IdNr. ist noch offen. |
+| A1 Zahlung | „Nicht unseren Stripe nutzen, mach ein neues“ | Ein Stripe-Konto kann ich nicht anlegen (KYC, Identität; stripe.com ist zudem gesperrt). Anleitung: `sales/stripe-payment-links.md`. **Bis dahin Zahlung auf Rechnung.** |
+
 ---
 
 ## A. Geld empfangen & Rechtliches

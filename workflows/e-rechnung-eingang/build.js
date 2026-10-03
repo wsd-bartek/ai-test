@@ -8,7 +8,7 @@ const crypto = require('crypto');
 const dir = __dirname;
 const read = f => fs.readFileSync(path.join(dir, 'src', f), 'utf8');
 const jsCode = [
-  '// Nodewise E-Rechnung-Parser: XRechnung (UBL/CII), ZUGFeRD 1/2, Factur-X',
+  '// Wowora E-Rechnung-Parser: XRechnung (UBL/CII), ZUGFeRD 1/2, Factur-X',
   '// Quelle & Tests: https://github.com/wsd-bartek/ai-test/tree/claude/pensive-fermat-5pqh31/workflows/e-rechnung-eingang',
   read('tiny-inflate.js'),
   read('einvoice.js'),
@@ -62,11 +62,11 @@ const rowNode = (pos) => ({
 
 // ---------- Produktions-Workflow ----------
 const prod = {
-  name: 'E-Rechnung-Eingang automatisch verarbeiten (XRechnung / ZUGFeRD) – Nodewise',
+  name: 'E-Rechnung-Eingang automatisch verarbeiten (XRechnung / ZUGFeRD) – Wowora',
   nodes: [
     {
       parameters: {
-        content: '## E-Rechnung-Eingang automatisiert\n\n**Was passiert:** Neue E-Mails im Postfach → XML- und PDF-Anhänge prüfen → E-Rechnungen (XRechnung UBL/CII, ZUGFeRD 1/2, Factur-X) auslesen → Zeile ins Google Sheet, Original in Google Drive, Zusammenfassung per Mail.\n\n**Einrichtung (ca. 10 Min.):**\n1. IMAP-Zugang im Node *Postfach* hinterlegen (eigenes Rechnungspostfach empfohlen).\n2. Google Sheet mit Kopfzeile anlegen (Spalten siehe README) und im Node *In Tabelle eintragen* auswählen.\n3. Ordner im Node *Original archivieren* wählen.\n4. Absender/Empfänger im Node *Zusammenfassung senden* setzen.\n\nDer Parser läuft ohne externe Module, also auch in **n8n Cloud**.\nKeine Steuerberatung: Die Plausibilitätsprüfung ersetzt keine vollständige Validierung.\n\nGebaut von **Nodewise**: n8n-Automatisierungen zum Festpreis\nhttps://wsd-bartek.github.io/ai-test/',
+        content: '## E-Rechnung-Eingang automatisiert\n\n**Was passiert:** Neue E-Mails im Postfach → XML- und PDF-Anhänge prüfen → E-Rechnungen (XRechnung UBL/CII, ZUGFeRD 1/2, Factur-X) auslesen → Zeile ins Google Sheet, Original in Google Drive, Zusammenfassung per Mail.\n\n**Einrichtung (ca. 10 Min.):**\n1. IMAP-Zugang im Node *Postfach* hinterlegen (eigenes Rechnungspostfach empfohlen).\n2. Google Sheet mit Kopfzeile anlegen (Spalten siehe README) und im Node *In Tabelle eintragen* auswählen.\n3. Ordner im Node *Original archivieren* wählen.\n4. Absender/Empfänger im Node *Zusammenfassung senden* setzen.\n\nDer Parser läuft ohne externe Module, also auch in **n8n Cloud**.\nKeine Steuerberatung: Die Plausibilitätsprüfung ersetzt keine vollständige Validierung.\n\nGebaut von **Wowora**: n8n-Automatisierungen zum Festpreis\nhttps://wowora.de/',
         height: 520,
         width: 420,
       },
@@ -170,7 +170,7 @@ fs.writeFileSync(path.join(dir, 'e-rechnung-eingang.json'), JSON.stringify(prod,
 // ---------- Test-Workflow (lokal, Dateien statt Postfach) ----------
 const glob = process.argv[2] || '/tmp/einvoice-test/*';
 const test = {
-  id: 'nodewiseEInvoiceTest',
+  id: 'woworaEInvoiceTest',
   name: 'TEST E-Rechnung Parser',
   nodes: [
     { parameters: {}, id: id('t-trigger'), name: 'Start', type: 'n8n-nodes-base.manualTrigger', typeVersion: 1, position: [0, 0] },

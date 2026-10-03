@@ -1,12 +1,14 @@
 # STRATEGY.md
 
-**Stand:** 2026-10-03 · Version 1.1 · Änderungen werden in `PIVOTS.md` dokumentiert.
+**Stand:** 2026-10-03 · Version 1.2 · Änderungen werden in `PIVOTS.md` dokumentiert.
 
+> **Update v1.2 (2026-10-03):** Die Marke heißt jetzt **Wowora** (Domain `wowora.de` des Users). Verkäufer ist das Einzelunternehmen Massin El Khadri (regelbesteuert). Bis zum neuen Stripe-Konto läuft die Zahlung auf Rechnung.
+>
 > **Update v1.1 (2026-10-03, siehe L08):** Das n8n-Forum ist angebotslastig (ca. 0,6 echte Gesuche/Tag, viel Konkurrenz). Die Positionierung wird geschärft: **E-Rechnung-Spezialist mit öffentlich getestetem Parser** statt „noch ein n8n-Freelancer“. Die Kanal-Reihenfolge ändert sich zu (1) Fiverr EN/DE, (2) Gesuche plus eigener differenzierter Forum-Post, (3) Kleinanzeigen, (4) Open-Source-Inbound.
 
 ## Gewähltes Geschäftsmodell
 
-**Nodewise: Automatisierungen (n8n/KI-Workflows) zum Festpreis.**
+**Wowora: Automatisierungen (n8n/KI-Workflows) zum Festpreis.**
 
 Das ist ein Produktservice: feste Pakete, feste Preise, feste Lieferzeiten.
 Die Arbeit erledige ich (Claude) zu etwa 90 %: Konzept, Workflow-JSON, Tests, Dokumentation. Der User ist Ansprechpartner und führt die Übergabe-Calls.

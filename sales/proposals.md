@@ -33,10 +33,10 @@ How I'd approach it:
 
 Included: error handling, a short setup guide, a 30-min handover call and free fixes for 14 days. I don't need your credentials; you add them in your own n8n.
 
-Packages & how I work: https://wsd-bartek.github.io/ai-test/en/
+Packages & how I work: https://wowora.de/en/
 (I build with AI assistance, which is why it's fast and fixed-price. Everything is still tested and documented.)
 
-{first name}, Nodewise
+{first name}, Wowora
 ```
 
 ## Vorlage DE
@@ -53,10 +53,10 @@ So würde ich es umsetzen:
 
 Inklusive: Fehlerbehandlung, kurze Anleitung, 30-Min-Übergabe-Call und 14 Tage kostenlose Nachbesserung. Zugangsdaten brauche ich nicht, die trägst du selbst in deinem n8n ein.
 
-Pakete & Ablauf: https://wsd-bartek.github.io/ai-test/
+Pakete & Ablauf: https://wowora.de/
 
 Viele Grüße
-{Vorname}, Nodewise
+{Vorname}, Wowora
 ```
 
 ---
@@ -75,7 +75,7 @@ I build and fix n8n workflows at fixed prices:
 Every workflow comes with error handling, a setup guide, a handover call and free fixes. You keep your credentials; I deliver an import file.
 
 Built with AI assistance (fast + affordable), tested and documented.
-Details: https://wsd-bartek.github.io/ai-test/en/. Comment or DM with a short description of your process.
+Details: https://wowora.de/en/. Comment or DM with a short description of your process.
 ```
 
 ### Hacker News: monatlicher Thread „Freelancer? Seeking freelancer?“ (Kommentar)
@@ -83,7 +83,7 @@ Details: https://wsd-bartek.github.io/ai-test/en/. Comment or DM with a short de
 SEEKING WORK | Remote | Germany (EU)
 Fixed-price n8n automations & integrations: fix a workflow ($99), new workflow ($290), EU e-invoice processing (XRechnung/ZUGFeRD), small AI-agent workflows.
 Tested, documented, with handover call. AI-assisted, which keeps it fast and cheap.
-https://wsd-bartek.github.io/ai-test/en/
+https://wowora.de/en/
 Email: {contact email}
 ```
 
@@ -109,5 +109,5 @@ What I offer:
 
 Each comes with error handling, a setup guide, a handover call and free fixes. You keep your credentials. Built with AI assistance, which keeps it fast and affordable; everything is tested.
 
-Details: https://wsd-bartek.github.io/ai-test/en/. Reply here or DM me with a short description of your process.
+Details: https://wowora.de/en/. Reply here or DM me with a short description of your process.
 ```

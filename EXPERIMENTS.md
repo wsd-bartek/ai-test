@@ -45,7 +45,7 @@ Jedes Experiment hat eine Hypothese, einen Test, ein Erfolgskriterium und eine E
 - **Hypothese:** Ein wirklich nützlicher, getesteter Gratis-Workflow (E-Rechnung) bringt über GitHub und die n8n-Template-Galerie Anfragen nach Anpassungen.
 - **Test:**
   - Workflow liegt öffentlich in `workflows/e-rechnung-eingang` (240/240 Testdateien).
-  - Einreichung in der n8n-Galerie durch den User mit dem Nodewise-Account.
+  - Einreichung in der n8n-Galerie durch den User mit dem Wowora-Account.
 - **Messgrößen:** Anfragen mit Bezug auf den Workflow, GitHub-Traffic (Insights).
 - **Erfolgskriterium:** ≥ 1 qualifizierte Anfrage in 30 Tagen.
 - **Ergebnis:** –

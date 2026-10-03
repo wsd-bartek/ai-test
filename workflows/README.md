@@ -1,6 +1,6 @@
-# Nodewise Workflows
+# Wowora Workflows
 
-Geprüfte n8n-Workflows von [Nodewise](https://wsd-bartek.github.io/ai-test/). Sie dienen als Referenz und als Basis für Kundenprojekte.
+Geprüfte n8n-Workflows von [Wowora](https://wowora.de/). Sie dienen als Referenz und als Basis für Kundenprojekte.
 
 | Workflow | Beschreibung | Status |
 |---|---|---|

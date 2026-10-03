@@ -1,26 +1,55 @@
-# Stripe Payment Links: genaue Anleitung (ca. 10 Min.)
+# Stripe: neues Konto für Wowora und 4 Zahlungslinks
 
-So legst du die Links an: im Stripe-Dashboard (WSD-Account) auf **Produktkatalog → Produkt hinzufügen**, danach **Payment Links → Neu**.
-Für jedes der 4 Pakete einmal. Danach schickst du mir die 4 Links, und ich trage sie in `docs/assets/config.js` ein.
+**Wichtig:** Ein Stripe-Konto kann nur der Inhaber selbst anlegen, weil Stripe eine Identitätsprüfung (KYC), einen Ausweis und eine Bankverbindung verlangt. Ich kann das nicht für dich tun; stripe.com ist von meiner Umgebung aus zudem gesperrt.
 
-| Schlüssel | Produktname | Preis (einmalig) | Beschreibung (Kurztext) |
+**Bis Stripe aktiv ist, verkaufen wir auf Rechnung (Überweisung).** Die Website ist schon darauf eingestellt. Stripe ist also kein Blocker für den Go-live.
+
+---
+
+## Teil 1: Konto anlegen (ca. 15 Min.)
+
+1. Auf stripe.com/de auf **Jetzt starten** klicken und dich mit einer E-Mail registrieren. Empfohlen: `hallo@wowora.de` bzw. die Adresse, die du dafür nutzt.
+2. Bei **Unternehmensdetails**:
+
+| Feld | Eingabe |
+|---|---|
+| Land | Deutschland |
+| Unternehmenstyp | Einzelunternehmen |
+| Rechtlicher Name | Massin El Khadri |
+| Geschäftsadresse | Alter Keller 12, 36160 Dipperz |
+| Branche | Software / IT-Dienstleistungen (bzw. „Computer-Programmierung, Datenverarbeitung“) |
+| Website | `https://wowora.de` |
+| Produktbeschreibung | siehe Text unten |
+| Abrechnungsbezeichnung auf Kontoauszügen | `WOWORA` |
+| Steuer-ID | deine USt-IdNr., falls vorhanden |
+
+   Produktbeschreibung zum Einfügen:
+   ```
+   Wowora erstellt Automatisierungen (n8n-Workflows) für Unternehmen zum Festpreis: Einrichtung, Reparatur und Anpassung von Workflows, u. a. zur automatischen Verarbeitung von E-Rechnungen. Leistungen werden digital erbracht und vorab bezahlt. Nur B2B.
+   ```
+3. **Bankkonto** für Auszahlungen hinzufügen. Am besten nutzt du ein Geschäftskonto, falls vorhanden.
+4. **Identität bestätigen** (Ausweis).
+
+## Teil 2: Zahlungslinks anlegen (ca. 10 Min.)
+
+Gehe auf **Produktkatalog → Produkt hinzufügen** und danach auf **Payment Links → Neu**. Das machst du für jedes der 4 Pakete.
+
+Weil du regelbesteuert bist (19 % USt.), legst du die **Bruttobeträge** an. Die Website zeigt die Nettopreise mit dem Hinweis „zzgl. 19 % USt.“.
+
+| Schlüssel | Produktname | Preis brutto (einmalig) | Netto |
 |---|---|---|---|
-| `fix` | Nodewise Workflow-Fix | 99 € | Reparatur bzw. Debugging eines bestehenden n8n-Workflows (1 Workflow, 1 Problem). Lieferung in 24–48 h. |
-| `starter` | Nodewise Starter-Automatisierung | 290 € | 1 neuer n8n-Workflow (bis 3 Apps) inkl. Doku, 30-Min-Übergabe und 14 Tagen Fixes. Lieferung in 3 Werktagen. |
-| `erechnung` | Nodewise E-Rechnung-Eingang | 490 € | Automatische Verarbeitung eingehender XRechnung/ZUGFeRD-Rechnungen aus dem Postfach inkl. Export und Archiv. Lieferung in 5 Werktagen. |
-| `sprint` | Nodewise Automatisierungs-Sprint | 890 € | Bis zu 3 n8n-Workflows oder 1 KI-Agent-Workflow inkl. Doku, Übergabe und 30 Tagen Support. Lieferung in 5 Werktagen. |
+| `fix` | Wowora Workflow-Fix | **117,81 €** | 99 € |
+| `starter` | Wowora Starter-Automatisierung | **345,10 €** | 290 € |
+| `erechnung` | Wowora E-Rechnung-Eingang | **583,10 €** | 490 € |
+| `sprint` | Wowora Automatisierungs-Sprint | **1.059,10 €** | 890 € |
 
-**Preise und Steuern:**
-- Die Website zeigt Nettopreise.
-- Bist du **regelbesteuert**: Brutto anlegen (99 → 117,81 €, 290 → 345,10 €, 490 → 583,10 €, 890 → 1.059,10 €), oder den Preis netto anlegen und Stripe Tax die USt. aufschlagen lassen (Stripe Tax ist kostenpflichtig, daher besser brutto).
-- Bist du **Kleinunternehmer**: Die Beträge oben 1:1 übernehmen und mir Bescheid geben. Dann passe ich den Hinweis auf der Website an.
+Diese Beschreibung ergänzt du bei jedem Produkt:
+`Preis inkl. 19 % USt. Nur für Unternehmer (B2B).`
 
 **Einstellungen pro Link:**
-- [ ] **Nach der Zahlung → Bestätigungsseite: Kunden auf deine Website weiterleiten** → `https://wsd-bartek.github.io/ai-test/danke.html`
-- [ ] **Rechnungsadresse erfassen** aktivieren
-- [ ] **Steuer-ID erfassen** aktivieren (B2B-Kunden)
-- [ ] **Telefonnummer** nicht nötig
-- [ ] Optional **Rechnung (PDF) nach Zahlung erstellen**, falls du die Rechnungen nicht über dein übliches Rechnungstool schreibst
-- [ ] Zahlungsmethoden: Karte, SEPA-Lastschrift, Apple/Google Pay (je nach Account)
+- [ ] **Nach der Zahlung → Bestätigungsseite → Kunden auf deine Website weiterleiten:** `https://wowora.de/danke.html`
+- [ ] **Rechnungsadresse erfassen:** an
+- [ ] **Steuer-ID erfassen:** an (B2B-Kunden)
+- [ ] **Rechnung nach Zahlung erstellen (PDF):** an. Dann gibt es automatisch eine Rechnung. Die Option kostet bei Stripe eine kleine Gebühr pro Rechnung, die vom Umsatz abgezogen wird; vorab fällt nichts an.
 
-Zum Schluss schickst du mir die 4 URLs im Format `fix: https://buy.stripe.com/…` usw.
+Danach schickst du mir die 4 URLs im Format `fix: https://buy.stripe.com/…`. Ich trage sie ein, und die Website schaltet automatisch von „Buchung per E-Mail“ auf „online bezahlen“ um.

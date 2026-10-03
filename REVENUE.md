@@ -11,3 +11,5 @@ Hier zählen nur bestätigte Zahlungseingänge (z. B. Stripe-Zahlung erfolgreich
 | – | – | – | – | – | – |
 
 Kosten = Plattform- und Zahlungsgebühren (Stripe, Fiverr). Sonstige Ausgaben: €0.
+
+**Zählweise:** Umsatz wird **netto, ohne 19 % USt.** gezählt, weil die USt. ans Finanzamt geht. „Einnahme“ ist der Nettobetrag, „Netto“ steht für nach Gebühren.

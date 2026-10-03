@@ -136,3 +136,43 @@ Keine weiteren Features bauen, bevor die Kanäle live sind. Regel 8: nicht endlo
 1. User erledigt Block 1 aus `USER_ACTIONS.md`.
 2. Ich trage Links und Daten ein.
 3. Pages live → Block 2 (Kanäle) → Experiment #001 startet mit den ersten Gesuchen aus dem Radar.
+
+---
+
+## #003 · 2026-10-03 · Täglicher Check-in #1
+
+- Der Lead-Radar-Cron um 05:23 UTC ist **nicht gelaufen**. Ich habe ihn manuell gestartet, und der Check-in stößt ihn künftig selbst an (L09).
+- Markt laut Radar: 10 Gesuche und 15 Selbstangebote in 10 Tagen, kein neues Gesuch in den letzten 36 h, also keine Entwürfe.
+- Reddit liefert aus Actions leere RSS-Feeds. Das wird jetzt als Fehler ausgewiesen.
+
+---
+
+## #004 · 2026-10-03 · Antworten des Users umgesetzt: Wowora geht live-fähig
+
+**Was wurde gemacht?**
+- **Rebranding Nodewise → Wowora** auf allen Seiten, im Sales-Kit, im Workflow (neu gebaut, Tests weiterhin 240/240) und im Lead-Radar.
+- **Domain:**
+  - `docs/CNAME` = `wowora.de`.
+  - DNS-Analyse: NS bei GoDaddy, MX bei Microsoft 365, die Website zeigt auf Lovable (`185.158.133.1`).
+  - Konkrete DNS-Tabelle für den User erstellt.
+- **Impressum** ausgefüllt. Kontakt `hallo@wowora.de`.
+- **Datenschutz** um Microsoft 365 (E-Mail) und Zahlung auf Rechnung ergänzt.
+- **Bezahlung:** Ohne Stripe-Links zeigt die Seite automatisch „Buchung per E-Mail, Zahlung auf Rechnung“. Mit Links wechselt sie automatisch auf Online-Zahlung.
+- **Stripe-Anleitung** für ein neues Konto (Einzelunternehmen) inkl. Bruttopreisen (19 % USt.).
+- `USER_ACTIONS.md` neu: Go-live in ca. 15 Min. (E-Mail-Alias, Pages, DNS).
+
+**Warum?**
+Der User will die eigene Domain und ein neues Stripe-Konto. Damit Stripe den Go-live nicht blockiert, läuft die Zahlung vorerst über Rechnung (bei B2B üblich).
+
+**Ergebnis**
+Technisch ist alles bereit. Für den Go-live fehlen nur noch 3 Handgriffe des Users: Alias, Pages, DNS.
+
+**Entscheidung / Annahmen**
+- Regelbesteuerung (19 % USt.).
+- Die Marke heißt Wowora.
+- Umsatz wird netto gezählt.
+
+**Nächster Schritt**
+1. User erledigt Block 1.
+2. Ich prüfe DNS und HTTPS und melde den Go-live.
+3. Block 3: Kanäle, Fiverr zuerst.

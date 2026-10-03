@@ -2,7 +2,7 @@
 
 Strategiewechsel mit Begründung. Das Analyse-Schema steht in der Vorlage am Ende.
 
-_Noch kein Pivot. Aktuelle Strategie: `STRATEGY.md` v1 (Nodewise, Festpreis-Automatisierung)._
+_Noch kein Pivot. Aktuelle Strategie: `STRATEGY.md` v1 (Wowora, Festpreis-Automatisierung)._
 
 ---
 
