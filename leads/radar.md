@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-03 06:49 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-03 10:27 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -24,6 +24,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
+- 2026-10-03 09:59 · n8n-Forum Jobs · [\[FOR HIRE\] Messy data → clean rows your n8n flow can trust (fixed price, see it run before you pay)](https://community.n8n.io/t/for-hire-messy-data-clean-rows-your-n8n-flow-can-trust-fixed-price-see-it-run-before-you-pay/318495)
 - 2026-10-02 19:39 · n8n-Forum Jobs · [\[For Hire\] n8n Automation Builder – Looking for Agency / Long-Term Collaboration \| Remote EU](https://community.n8n.io/t/for-hire-n8n-automation-builder-looking-for-agency-long-term-collaboration-remote-eu/318406)
 - 2026-10-02 11:08 · n8n-Forum Jobs · [\[For Hire\] n8n automation: fixes, form/email to CRM, document extraction (EU, fixed price)](https://community.n8n.io/t/for-hire-n8n-automation-fixes-form-email-to-crm-document-extraction-eu-fixed-price/318215)
 - 2026-10-01 04:40 · n8n-Forum Jobs · [Looking for Remote Work — AI Automation / n8n](https://community.n8n.io/t/looking-for-remote-work-ai-automation-n8n/318025)
@@ -38,9 +39,9 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 - 2026-09-26 17:29 · n8n-Forum Jobs · [Cerrado el proceso de selección, gracias a todos no enviar más mensajes](https://community.n8n.io/t/cerrado-el-proceso-de-seleccion-gracias-a-todos-no-enviar-mas-mensajes/316825)
 - 2026-09-26 16:14 · n8n-Forum Jobs · [\[For Hire\] AI lead intake for service businesses: form → Claude triage → Sheets + instant reply + urgent alerts. $149, paid after it works](https://community.n8n.io/t/for-hire-ai-lead-intake-for-service-businesses-form-claude-triage-sheets-instant-reply-urgent-alerts-149-paid-after-it-works/316808)
 - 2026-09-26 11:37 · n8n-Forum Jobs · [\[Available for Hire\] n8n + WhatsApp Cloud API specialist — AI attendance & lead engines in production](https://community.n8n.io/t/available-for-hire-n8n-whatsapp-cloud-api-specialist-ai-attendance-lead-engines-in-production/316752)
-- 2026-09-26 10:38 · n8n-Forum Jobs · [\[For Hire\] n8n automation builder — WhatsApp & AI booking bots, bookings, lead capture (fixed prices)](https://community.n8n.io/t/for-hire-n8n-automation-builder-whatsapp-ai-booking-bots-bookings-lead-capture-fixed-prices/316737)
 
 </details>
 
+> Quellen mit Fehlern: r/n8n: RSS ohne Einträge (vermutlich blockiert); r/forhire: RSS ohne Einträge (vermutlich blockiert); r/automation: RSS ohne Einträge (vermutlich blockiert)
 
-_Rohdaten pro Quelle (vor Filter): r/n8n: 0 · r/forhire: 0 · r/automation: 0_
+_Rohdaten pro Quelle (vor Filter): –_
