@@ -34,10 +34,29 @@ async function n8nJobs() {
   return out;
 }
 
+async function redditRss(sub) {
+  const r = await fetch(`https://old.reddit.com/r/${sub}/new/.rss?limit=100`, { headers: { 'User-Agent': UA } });
+  if (!r.ok) throw new Error(`${r.status} ${r.statusText} (auch RSS)`);
+  const xml = await r.text();
+  const unesc = s => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+  return [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].map(m => ({
+    title: unesc((/<title>([\s\S]*?)<\/title>/.exec(m[1]) || [])[1] || ''),
+    permalink: ((/<link href="https:\/\/(?:old|www)\.reddit\.com([^"]+)"/.exec(m[1]) || [])[1]) || '',
+    created_utc: Date.parse((/<updated>([^<]+)<\/updated>/.exec(m[1]) || [])[1]) / 1000,
+    num_comments: '?',
+    selftext: '',
+  }));
+}
+
 async function reddit(sub, filter) {
-  const d = await getJson(`https://www.reddit.com/r/${sub}/new.json?limit=100&raw_json=1`);
-  return (d.data?.children ?? [])
-    .map(c => c.data)
+  let posts;
+  try {
+    const d = await getJson(`https://www.reddit.com/r/${sub}/new.json?limit=100&raw_json=1`);
+    posts = (d.data?.children ?? []).map(c => c.data);
+  } catch (e) {
+    posts = await redditRss(sub);
+  }
+  return posts
     .filter(p => p.created_utc * 1000 >= since && filter(p))
     .map(p => ({
       source: `r/${sub}`,
@@ -64,8 +83,13 @@ for (const [name, fn] of sources) {
 }
 leads.sort((a, b) => b.created - a.created);
 
+// Angebot (Freelancer bieten sich an) vs. Nachfrage (jemand sucht Hilfe)
+const isSupply = l => /\[?\s*for\s*hire\s*\]?|available for|looking for (remote )?work|open to work|i will |offering/i.test(l.title) && !/\[hiring\]/i.test(l.title);
+const demand = leads.filter(l => !isSupply(l));
+const supply = leads.filter(isSupply);
+
 const fmt = ts => new Date(ts).toISOString().slice(0, 16).replace('T', ' ');
-const esc = s => s.replace(/\|/g, '\\|').replace(/\s+/g, ' ').trim();
+const esc = s => s.replace(/\|/g, '\\|').replace(/([\[\]])/g, '\\$1').replace(/\s+/g, ' ').trim();
 const fresh = ts => Date.now() - ts < 36 * 3600e3 ? '🆕 ' : '';
 const lines = [
   '# Lead-Radar',
@@ -74,13 +98,22 @@ const lines = [
   '',
   '**So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).',
   '',
+  `**Markt (${DAYS} Tage):** ${demand.length} Gesuche (Nachfrage) · ${supply.length} Selbstangebote von Freelancern (Konkurrenz)`,
+  '',
+  '## Gesuche (Nachfrage)',
+  '',
   '| Neu | Datum (UTC) | Quelle | Gesuch | Antworten |',
   '|---|---|---|---|---|',
-  ...leads.map(l => `| ${fresh(l.created)} | ${fmt(l.created)} | ${l.source} | [${esc(l.title)}](${l.url}) | ${l.replies} |`),
+  ...demand.map(l => `| ${fresh(l.created)} | ${fmt(l.created)} | ${l.source} | [${esc(l.title)}](${l.url}) | ${l.replies} |`),
   '',
-  leads.length ? `${leads.length} Gesuche gefunden.` : '_Keine Gesuche gefunden._',
+  demand.length ? '' : '_Keine Gesuche gefunden._',
+  '<details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>',
+  '',
+  ...supply.map(l => `- ${fmt(l.created)} · ${l.source} · [${esc(l.title)}](${l.url})`),
+  '',
+  '</details>',
   errors.length ? `\n> Quellen mit Fehlern: ${errors.join('; ')}` : '',
   '',
 ];
 writeFileSync(new URL('../leads/radar.md', import.meta.url), lines.join('\n'));
-console.log(`leads=${leads.length} errors=${errors.length}`, errors);
+console.log(`demand=${demand.length} supply=${supply.length} errors=${errors.length}`, errors);
