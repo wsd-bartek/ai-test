@@ -20,8 +20,10 @@ Jedes Experiment hat eine Hypothese, einen Test, ein Erfolgskriterium und eine E
 - **Messgrößen:** Anzahl Antworten → Rückmeldungen → Gespräche → Aufträge (€) sowie die Zeit bis zur ersten Antwort.
 - **Erfolgskriterium:** innerhalb von 14 Tagen nach Start mindestens 1 bezahlter Auftrag.
 - **Abbruch- bzw. Anpassungskriterium:** 15 Antworten ohne Rückmeldung → Angebot, Preis bzw. Ton ändern (siehe `LEARNINGS.md`).
-- **Ergebnis:** –
-- **Learning:** –
+- **Ergebnis (laufend):**
+  - 2026-10-03, vor dem Start: Der Radar misst 10 Gesuche und 15 Selbstangebote in 10 Tagen, davon kein neues Gesuch in den letzten 36 h.
+  - Reddit ist von GitHub Actions aus nicht lesbar.
+- **Learning:** siehe L08, L09
 - **Entscheidung:** –
 
 ## Experiment #002: Fiverr

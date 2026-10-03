@@ -38,6 +38,7 @@ async function redditRss(sub) {
   const r = await fetch(`https://old.reddit.com/r/${sub}/new/.rss?limit=100`, { headers: { 'User-Agent': UA } });
   if (!r.ok) throw new Error(`${r.status} ${r.statusText} (auch RSS)`);
   const xml = await r.text();
+  if (!/<entry>/.test(xml)) throw new Error('RSS ohne Einträge (vermutlich blockiert)');
   const unesc = s => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
   return [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].map(m => ({
     title: unesc((/<title>([\s\S]*?)<\/title>/.exec(m[1]) || [])[1] || ''),
