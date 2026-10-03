@@ -1,0 +1,34 @@
+name: Lead-Radar
+
+on:
+  schedule:
+    - cron: '23 5,9,13,17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lead-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gesuche sammeln
+        run: node scripts/lead-radar.mjs
+      - name: Änderungen committen
+        run: |
+          if git diff --quiet -- leads/radar.md; then echo "keine Änderung"; exit 0; fi
+          git config user.name "nodewise-lead-radar"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add leads/radar.md
+          git commit -m "chore: update lead radar"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
