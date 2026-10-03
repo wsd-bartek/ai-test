@@ -97,3 +97,42 @@ MVP bauen:
 2. 2 Referenz-Workflows, validiert in lokalem n8n
 3. Sales-Kit
 4. `USER_ACTIONS.md` mit allen einmaligen Handgriffen
+
+---
+
+## #002 · 2026-10-03 · MVP gebaut
+
+**Was wurde gemacht?**
+1. **Landingpage** `docs/` (DE + EN): 4 Festpreispakete, Stripe-Links über `config.js` (bis dahin Fallback auf E-Mail), Impressum-Vorlage, Datenschutz, Leistungsbedingungen (nur B2B), Danke-Seite. Getestet in Chromium: Desktop, Mobil, Dark Mode, kein Überlauf, keine JS-Fehler.
+2. **Sales-Kit** `sales/`: Stripe-Anleitung, 2 Fiverr-Gigs, Kleinanzeigen-Anzeige, Antwortvorlagen für Gesuche, Profiltexte.
+3. **`USER_ACTIONS.md`**: alle einmaligen Handgriffe des Users (ca. 25 Min. Go-live und ca. 45 Min. Kanäle).
+4. **Referenz-Workflow** `workflows/e-rechnung-eingang`:
+   - Parser ohne Abhängigkeiten für XRechnung, ZUGFeRD und Factur-X.
+   - **240/240 offizielle Testrechnungen** gelesen.
+   - Ende-zu-Ende in n8n 2.41.6 ausgeführt.
+   - Dient als Lieferobjekt für das €490-Paket, als Portfolio und als Inbound-Asset.
+5. **Lead-Radar** (GitHub Action, 4× täglich): sammelt öffentliche Gesuche in `leads/radar.md`.
+6. `EXPERIMENTS.md` mit den Experimenten #001–#004 angelegt.
+
+**Warum?**
+- Kleinster MVP, der verkaufen kann: Seite, Zahlung, Kanäle.
+- Der Workflow macht das teuerste Paket sofort lieferbar und gibt Glaubwürdigkeit („zeig, dass du es kannst“).
+
+**Ergebnis**
+Alles ist gebaut und gepusht. Der Umsatz ist weiterhin €0. Der Engpass liegt jetzt **vollständig bei den Go-live-Schritten des Users** (E-Mail, Impressum, Stripe-Links, Pages).
+
+**Was hat funktioniert?**
+- Test gegen offizielle Korpora (2 Bugs gefunden und behoben).
+- Node 24 über die npm-Registry.
+- GitHub Actions als „Arme“ ins Internet.
+
+**Was hat nicht funktioniert?**
+- n8n lief erst nicht (Node-Version, isolated-vm). Gelöst, siehe L05.
+
+**Entscheidung**
+Keine weiteren Features bauen, bevor die Kanäle live sind. Regel 8: nicht endlos bauen.
+
+**Nächster Schritt**
+1. User erledigt Block 1 aus `USER_ACTIONS.md`.
+2. Ich trage Links und Daten ein.
+3. Pages live → Block 2 (Kanäle) → Experiment #001 startet mit den ersten Gesuchen aus dem Radar.
