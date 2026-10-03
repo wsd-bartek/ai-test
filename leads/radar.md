@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-03 00:04 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-03 06:48 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 14 Gesuche (Nachfrage) · 12 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 15 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -16,11 +16,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-09-28 05:23 | n8n-Forum Jobs | [\[HIRING\] Multi-Agent B2B Lead Gen System \| n8n + LangGraph \| Energy Storage (Na/Li Battery)](https://community.n8n.io/t/hiring-multi-agent-b2b-lead-gen-system-n8n-langgraph-energy-storage-na-li-battery/317073) | 2 |
 |  | 2026-09-28 01:51 | n8n-Forum Jobs | [Help Needed: Building an AI-Powered Personalized Fitness Plan Automation with n8n + Google Forms + WhatsApp](https://community.n8n.io/t/help-needed-building-an-ai-powered-personalized-fitness-plan-automation-with-n8n-google-forms-whatsapp/317002) | 1 |
 |  | 2026-09-27 23:47 | n8n-Forum Jobs | [Human approval in n8n: what does the reviewer actually need to see?](https://community.n8n.io/t/human-approval-in-n8n-what-does-the-reviewer-actually-need-to-see/316994) | 0 |
-|  | 2026-09-27 18:19 | n8n-Forum Jobs | [Desarrollador de Automatizaciones e IA \| n8n, WhatsApp, Agentes IA, APIs y Supabase \| Busco proyectos/equipo](https://community.n8n.io/t/desarrollador-de-automatizaciones-e-ia-n8n-whatsapp-agentes-ia-apis-y-supabase-busco-proyectos-equipo/316959) | 0 |
-|  | 2026-09-27 08:41 | n8n-Forum Jobs | [🚀 AI Automation / n8n Developer — Open to Remote Opportunities](https://community.n8n.io/t/ai-automation-n8n-developer-open-to-remote-opportunities/316907) | 0 |
-|  | 2026-09-26 17:29 | n8n-Forum Jobs | [Cerrado el proceso de selección, gracias a todos no enviar más mensajes](https://community.n8n.io/t/cerrado-el-proceso-de-seleccion-gracias-a-todos-no-enviar-mas-mensajes/316825) | 0 |
 |  | 2026-09-26 14:01 | n8n-Forum Jobs | [Looking for 1–2 n8n Builders for Long-Term Collaboration](https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792) | 3 |
-|  | 2026-09-26 08:12 | n8n-Forum Jobs | [Apologies for the missing contact details in my previous post](https://community.n8n.io/t/apologies-for-the-missing-contact-details-in-my-previous-post/316550) | 0 |
 |  | 2026-09-25 15:00 | n8n-Forum Jobs | [Looking for an n8n Freelancer / Automation Builder](https://community.n8n.io/t/looking-for-an-n8n-freelancer-automation-builder/316359) | 10 |
 |  | 2026-09-23 22:14 | n8n-Forum Jobs | [\[ESPAÑOL\] Buscamos Freelancer Técnico/a IA + Automatización + n8n \| Colaboración por proyectos](https://community.n8n.io/t/espanol-buscamos-freelancer-tecnico-a-ia-automatizacion-n8n-colaboracion-por-proyectos/316044) | 1 |
 |  | 2026-09-23 22:07 | n8n-Forum Jobs | [\[HIRING\] Part-time "household CTO": n8n + Notion + local LLM home setup (LA / remote)](https://community.n8n.io/t/hiring-part-time-household-cto-n8n-notion-local-llm-home-setup-la-remote/315978) | 2 |
@@ -36,7 +32,10 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 - 2026-09-28 13:27 · n8n-Forum Jobs · [\[For Hire\] Repeatable CSV cleanup — duplicate tracking and a review report](https://community.n8n.io/t/for-hire-repeatable-csv-cleanup-duplicate-tracking-and-a-review-report/317305)
 - 2026-09-28 13:07 · n8n-Forum Jobs · [N8n automation builder available for AI agent, voice and lead workflow projects,and any kind of n8n automation building](https://community.n8n.io/t/n8n-automation-builder-available-for-ai-agent-voice-and-lead-workflow-projects-and-any-kind-of-n8n-automation-building/317301)
 - 2026-09-28 06:27 · n8n-Forum Jobs · [For Hire\] n8n + AI automation builder — self-hosted workflows, WhatsApp, API integrations](https://community.n8n.io/t/for-hire-n8n-ai-automation-builder-self-hosted-workflows-whatsapp-api-integrations/317167)
+- 2026-09-27 18:19 · n8n-Forum Jobs · [Desarrollador de Automatizaciones e IA \| n8n, WhatsApp, Agentes IA, APIs y Supabase \| Busco proyectos/equipo](https://community.n8n.io/t/desarrollador-de-automatizaciones-e-ia-n8n-whatsapp-agentes-ia-apis-y-supabase-busco-proyectos-equipo/316959)
 - 2026-09-27 15:03 · n8n-Forum Jobs · [\[For Hire\] Process-led automation for small businesses in the US, Canada and UK — fixed prices from $500](https://community.n8n.io/t/for-hire-process-led-automation-for-small-businesses-in-the-us-canada-and-uk-fixed-prices-from-500/316944)
+- 2026-09-27 08:41 · n8n-Forum Jobs · [🚀 AI Automation / n8n Developer — Open to Remote Opportunities](https://community.n8n.io/t/ai-automation-n8n-developer-open-to-remote-opportunities/316907)
+- 2026-09-26 17:29 · n8n-Forum Jobs · [Cerrado el proceso de selección, gracias a todos no enviar más mensajes](https://community.n8n.io/t/cerrado-el-proceso-de-seleccion-gracias-a-todos-no-enviar-mas-mensajes/316825)
 - 2026-09-26 16:14 · n8n-Forum Jobs · [\[For Hire\] AI lead intake for service businesses: form → Claude triage → Sheets + instant reply + urgent alerts. $149, paid after it works](https://community.n8n.io/t/for-hire-ai-lead-intake-for-service-businesses-form-claude-triage-sheets-instant-reply-urgent-alerts-149-paid-after-it-works/316808)
 - 2026-09-26 11:37 · n8n-Forum Jobs · [\[Available for Hire\] n8n + WhatsApp Cloud API specialist — AI attendance & lead engines in production](https://community.n8n.io/t/available-for-hire-n8n-whatsapp-cloud-api-specialist-ai-attendance-lead-engines-in-production/316752)
 - 2026-09-26 10:38 · n8n-Forum Jobs · [\[For Hire\] n8n automation builder — WhatsApp & AI booking bots, bookings, lead capture (fixed prices)](https://community.n8n.io/t/for-hire-n8n-automation-builder-whatsapp-ai-booking-bots-bookings-lead-capture-fixed-prices/316737)
