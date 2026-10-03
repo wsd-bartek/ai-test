@@ -1,6 +1,8 @@
 # STRATEGY.md
 
-**Stand:** 2026-10-02 · Version 1 · Änderungen werden in `PIVOTS.md` dokumentiert.
+**Stand:** 2026-10-03 · Version 1.1 · Änderungen werden in `PIVOTS.md` dokumentiert.
+
+> **Update v1.1 (2026-10-03, siehe L08):** Das n8n-Forum ist angebotslastig (ca. 0,6 echte Gesuche/Tag, viel Konkurrenz). Die Positionierung wird geschärft: **E-Rechnung-Spezialist mit öffentlich getestetem Parser** statt „noch ein n8n-Freelancer“. Die Kanal-Reihenfolge ändert sich zu (1) Fiverr EN/DE, (2) Gesuche plus eigener differenzierter Forum-Post, (3) Kleinanzeigen, (4) Open-Source-Inbound.
 
 ## Gewähltes Geschäftsmodell
 

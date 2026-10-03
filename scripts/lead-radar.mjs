@@ -84,7 +84,7 @@ for (const [name, fn] of sources) {
 leads.sort((a, b) => b.created - a.created);
 
 // Angebot (Freelancer bieten sich an) vs. Nachfrage (jemand sucht Hilfe)
-const isSupply = l => /\[?\s*for\s*hire\s*\]?|available for|looking for (remote )?work|open to work|i will |offering/i.test(l.title) && !/\[hiring\]/i.test(l.title);
+const isSupply = l => /\[?\s*for\s*hire\s*\]?|available|looking for (remote )?work|open to (remote )?(work|opportunit)|busco proyectos|i will |offering|apologies|cerrado|closed/i.test(l.title) && !/\[hiring\]/i.test(l.title);
 const demand = leads.filter(l => !isSupply(l));
 const supply = leads.filter(isSupply);
 
