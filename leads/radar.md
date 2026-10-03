@@ -1,15 +1,16 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-03 10:27 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-03 17:25 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 15 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 11 Gesuche (Nachfrage) · 15 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
+| 🆕  | 2026-10-03 13:30 | n8n-Forum Jobs | [Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) \| Remote](https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516) | 1 |
 |  | 2026-09-29 14:22 | n8n-Forum Jobs | [Analista de Automação com IA (Pleno)](https://community.n8n.io/t/analista-de-automacao-com-ia-pleno/317607) | 0 |
 |  | 2026-09-29 12:26 | n8n-Forum Jobs | [\[HIRING\] n8n + Looker Studio builder for marketing reporting (Meta Ads, Google Ads, GA4) \| Paid test → ongoing \| India/IST](https://community.n8n.io/t/hiring-n8n-looker-studio-builder-for-marketing-reporting-meta-ads-google-ads-ga4-paid-test-ongoing-india-ist/317595) | 0 |
 |  | 2026-09-29 11:01 | n8n-Forum Jobs | [Gesucht: Teacher Business Automation Expert (Festanstellung ,remote)](https://community.n8n.io/t/gesucht-teacher-business-automation-expert-festanstellung-remote/317583) | 0 |
@@ -24,6 +25,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
+- 2026-10-03 15:40 · n8n-Forum Jobs · [\[for hire\] ai automation and workflow developer](https://community.n8n.io/t/for-hire-ai-automation-and-workflow-developer/318541)
 - 2026-10-03 09:59 · n8n-Forum Jobs · [\[FOR HIRE\] Messy data → clean rows your n8n flow can trust (fixed price, see it run before you pay)](https://community.n8n.io/t/for-hire-messy-data-clean-rows-your-n8n-flow-can-trust-fixed-price-see-it-run-before-you-pay/318495)
 - 2026-10-02 19:39 · n8n-Forum Jobs · [\[For Hire\] n8n Automation Builder – Looking for Agency / Long-Term Collaboration \| Remote EU](https://community.n8n.io/t/for-hire-n8n-automation-builder-looking-for-agency-long-term-collaboration-remote-eu/318406)
 - 2026-10-02 11:08 · n8n-Forum Jobs · [\[For Hire\] n8n automation: fixes, form/email to CRM, document extraction (EU, fixed price)](https://community.n8n.io/t/for-hire-n8n-automation-fixes-form-email-to-crm-document-extraction-eu-fixed-price/318215)
@@ -38,7 +40,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 - 2026-09-27 08:41 · n8n-Forum Jobs · [🚀 AI Automation / n8n Developer — Open to Remote Opportunities](https://community.n8n.io/t/ai-automation-n8n-developer-open-to-remote-opportunities/316907)
 - 2026-09-26 17:29 · n8n-Forum Jobs · [Cerrado el proceso de selección, gracias a todos no enviar más mensajes](https://community.n8n.io/t/cerrado-el-proceso-de-seleccion-gracias-a-todos-no-enviar-mas-mensajes/316825)
 - 2026-09-26 16:14 · n8n-Forum Jobs · [\[For Hire\] AI lead intake for service businesses: form → Claude triage → Sheets + instant reply + urgent alerts. $149, paid after it works](https://community.n8n.io/t/for-hire-ai-lead-intake-for-service-businesses-form-claude-triage-sheets-instant-reply-urgent-alerts-149-paid-after-it-works/316808)
-- 2026-09-26 11:37 · n8n-Forum Jobs · [\[Available for Hire\] n8n + WhatsApp Cloud API specialist — AI attendance & lead engines in production](https://community.n8n.io/t/available-for-hire-n8n-whatsapp-cloud-api-specialist-ai-attendance-lead-engines-in-production/316752)
 
 </details>
 
