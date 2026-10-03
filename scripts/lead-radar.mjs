@@ -48,6 +48,8 @@ async function redditRss(sub) {
   }));
 }
 
+const rawCounts = {};
+
 async function reddit(sub, filter) {
   let posts;
   try {
@@ -56,6 +58,7 @@ async function reddit(sub, filter) {
   } catch (e) {
     posts = await redditRss(sub);
   }
+  rawCounts[`r/${sub}`] = posts.length;
   return posts
     .filter(p => p.created_utc * 1000 >= since && filter(p))
     .map(p => ({
@@ -113,7 +116,8 @@ const lines = [
   '',
   '</details>',
   errors.length ? `\n> Quellen mit Fehlern: ${errors.join('; ')}` : '',
+  `\n_Rohdaten pro Quelle (vor Filter): ${Object.entries(rawCounts).map(([k, v]) => `${k}: ${v}`).join(' · ') || '–'}_`,
   '',
 ];
 writeFileSync(new URL('../leads/radar.md', import.meta.url), lines.join('\n'));
-console.log(`demand=${demand.length} supply=${supply.length} errors=${errors.length}`, errors);
+console.log(`demand=${demand.length} supply=${supply.length} errors=${errors.length}`, errors, rawCounts);
