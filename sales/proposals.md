@@ -86,3 +86,28 @@ Tested, documented, with handover call. AI-assisted, which keeps it fast and che
 https://wsd-bartek.github.io/ai-test/en/
 Email: {contact email}
 ```
+
+### n8n-Forum, Kategorie Jobs: eigener Post (1×, danach höchstens alle 30 Tage aktualisieren)
+
+**Warum dieser Winkel:** Der Lead-Radar zeigt, dass die Jobs-Kategorie voll mit allgemeinen „[For Hire] n8n automation“-Posts ist (siehe `leads/radar.md`). Wir stechen nur mit etwas heraus, das die anderen nicht haben: **EU-E-Rechnungen** plus **öffentlich getesteter Code**.
+
+**Titel:** `[For Hire] EU e-invoice automations (XRechnung / ZUGFeRD / Factur-X) + fixed-price n8n workflows`
+
+```
+Hi everyone,
+
+I build n8n workflows at fixed prices, with one specialty most builders don't cover: EU e-invoices.
+
+Since 2025 every German business must be able to receive e-invoices (XRechnung, ZUGFeRD), and from 2027 larger ones must send them. France's mandate (Factur-X) started in September 2026. I published a free, dependency-free n8n workflow that reads XRechnung (UBL/CII), ZUGFeRD 1/2 and Factur-X from an inbox and logs them to Sheets/Drive. It's tested against 240 official sample invoices and runs on n8n Cloud:
+https://github.com/wsd-bartek/ai-test/tree/claude/pensive-fermat-5pqh31/workflows/e-rechnung-eingang
+
+What I offer:
+• Fix one broken workflow – €99 (24–48 h)
+• New workflow, up to 3 apps – €290 (3 days)
+• E-invoice intake tailored to your stack (lexoffice, sevDesk, DATEV, Paperless …) – €490
+• Sprint: up to 3 workflows or one AI-agent workflow – €890
+
+Each comes with error handling, a setup guide, a handover call and free fixes. You keep your credentials. Built with AI assistance, which keeps it fast and affordable; everything is tested.
+
+Details: https://wsd-bartek.github.io/ai-test/en/. Reply here or DM me with a short description of your process.
+```
