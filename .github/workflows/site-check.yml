@@ -1,0 +1,31 @@
+name: Site-Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Erreichbarkeit, HTTPS und Inhalte prüfen
+        run: |
+          set +e
+          fail=0
+          check() { # url, erwarteter Text
+            code=$(curl -s -o /tmp/body -w "%{http_code}" -L --max-time 20 "$1")
+            if [ "$code" = "200" ] && grep -q "$2" /tmp/body; then echo "OK   $code $1 (enthält '$2')"; else echo "FAIL $code $1 (erwartet '$2')"; fail=1; fi
+          }
+          check https://wowora.de/ "Wowora"
+          check https://wowora.de/impressum.html "Massin El Khadri"
+          check https://wowora.de/datenschutz.html "Datenschutzerklärung"
+          check https://wowora.de/bedingungen.html "Leistungsbedingungen"
+          check https://wowora.de/danke.html "Zahlung ist eingegangen"
+          check https://wowora.de/en/ "fixed price"
+          check https://www.wowora.de/ "Wowora"
+          echo "--- Redirects"
+          curl -sI --max-time 20 http://wowora.de/ | grep -iE "^(HTTP|location)"
+          curl -sI --max-time 20 https://www.wowora.de/ | grep -iE "^(HTTP|location)"
+          echo "--- Zertifikat"
+          echo | openssl s_client -servername wowora.de -connect wowora.de:443 2>/dev/null | openssl x509 -noout -subject -issuer -dates
+          exit $fail

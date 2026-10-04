@@ -14,19 +14,20 @@ Alles ist vorbereitet. Schick mir Ergebnisse oder Fragen einfach im Chat.
 ## Block 1: Go-live (ca. 15 Min.) 🔴
 
 - [ ] **1. E-Mail `hallo@wowora.de` einrichten.**
-  Die Domain nutzt bereits Microsoft 365. So richtest du die Adresse ein:
-  1. Im Microsoft 365 Admin Center auf **Benutzer → Aktive Benutzer** gehen und dein Konto auswählen.
-  2. Unter **E-Mail-Aliase verwalten** den Alias `hallo@wowora.de` hinzufügen. Das ist kostenlos.
+  Die Domain nutzt seit 2026-10-04 **Google Workspace** für E-Mail. So richtest du die Adresse ein:
+  1. In der Google Admin Console auf **Verzeichnis → Nutzer** gehen und dein Konto wählen.
+  2. Unter **Alternative E-Mail-Adressen (Alias)** `hallo` hinzufügen. Das ist kostenlos.
+  3. Danach eine Testmail an `hallo@wowora.de` schicken.
 
   Willst du lieber eine andere Adresse nutzen? Dann sag mir, welche. Die Adresse steht im Impressum und muss funktionieren.
 
-- [ ] **2. GitHub Pages einschalten.**
+- [x] **2. GitHub Pages einschalten.** ✅ erledigt 2026-10-04
   1. Im Repo `wsd-bartek/ai-test` auf **Settings → Pages** gehen.
   2. Bei *Source* „Deploy from a branch“ wählen, dann Branch `claude/pensive-fermat-5pqh31` und Ordner `/docs`. Mit **Save** bestätigen.
   3. Bei *Custom domain* `wowora.de` eintragen und auf **Save** klicken.
   4. Sobald das Zertifikat da ist (einige Minuten bis wenige Stunden), **Enforce HTTPS** anhaken.
 
-- [ ] **3. DNS bei GoDaddy umstellen** (Domain → DNS verwalten).
+- [x] **3. DNS bei GoDaddy umstellen** ✅ erledigt 2026-10-04 (A und CNAME korrekt; E-Mail läuft jetzt über Google Workspace) (Domain → DNS verwalten).
   ⚠️ `wowora.de` zeigt aktuell auf **Lovable** (`185.158.133.1`). Nach der Umstellung ist die dortige Seite nicht mehr unter wowora.de erreichbar. Die **E-Mail-Einträge (MX, TXT/SPF) nicht anfassen**, dann läuft E-Mail normal weiter.
 
   | Typ | Name | Wert | Aktion |
