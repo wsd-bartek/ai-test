@@ -176,3 +176,29 @@ Technisch ist alles bereit. Für den Go-live fehlen nur noch 3 Handgriffe des Us
 1. User erledigt Block 1.
 2. Ich prüfe DNS und HTTPS und melde den Go-live.
 3. Block 3: Kanäle, Fiverr zuerst.
+
+---
+
+## #005 · 2026-10-04 · 🚀 Go-live wowora.de
+
+**Was wurde gemacht?**
+- Der User hat GitHub Pages aktiviert und die DNS-Einträge umgestellt.
+- Ich habe verifiziert:
+  - A-Records zeigen auf GitHub Pages, `www` per CNAME auf `wsd-bartek.github.io`.
+  - Pages ist aktiv.
+- **Site-Check als GitHub Action** angelegt (`site-check.yml`), weil der Container die Seite nicht direkt erreicht. Ergebnis:
+  - HTTP 200 für Startseite, Impressum und Datenschutz, alle mit den richtigen Inhalten.
+  - **HTTPS noch ausstehend**: Es wird noch das Zertifikat `*.github.io` ausgeliefert, das für `wowora.de` ist noch nicht ausgestellt.
+- Aufgefallen: Die **E-Mail der Domain läuft jetzt über Google Workspace** (MX, SPF und Verifizierung sind konsistent, also offenbar gewollt). Datenschutz und `USER_ACTIONS.md` habe ich angepasst.
+- `robots.txt` und `sitemap.xml` ergänzt, die Danke-Seite ist auf `noindex` gesetzt.
+
+**Ergebnis**
+Wowora ist öffentlich erreichbar. Damit können die Verkaufskanäle starten.
+
+**Offen**
+1. HTTPS: Sobald das Zertifikat da ist, setzt der User „Enforce HTTPS“.
+2. Alias `hallo@wowora.de` in Google Workspace anlegen und mit einer Testmail prüfen.
+3. Block 3: Fiverr, n8n-Forum-Post, Kleinanzeigen.
+
+**Nächster Schritt**
+Kanäle live schalten (User), danach startet die Messung von Experiment #001 bis #003.
