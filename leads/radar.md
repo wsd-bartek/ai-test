@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-04 06:47 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-04 11:09 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -41,6 +41,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 
 </details>
 
-> Quellen mit Fehlern: r/n8n: RSS ohne Einträge (vermutlich blockiert); r/forhire: RSS ohne Einträge (vermutlich blockiert); r/automation: RSS ohne Einträge (vermutlich blockiert)
+> Quellen mit Fehlern: r/n8n: 403 Blocked (auch RSS); r/forhire: 403 Blocked (auch RSS); r/automation: 403 Blocked (auch RSS)
 
 _Rohdaten pro Quelle (vor Filter): –_
