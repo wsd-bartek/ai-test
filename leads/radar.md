@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-03 17:25 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-04 06:47 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 11 Gesuche (Nachfrage) · 15 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 9 Gesuche (Nachfrage) · 15 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -19,8 +19,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-09-27 23:47 | n8n-Forum Jobs | [Human approval in n8n: what does the reviewer actually need to see?](https://community.n8n.io/t/human-approval-in-n8n-what-does-the-reviewer-actually-need-to-see/316994) | 0 |
 |  | 2026-09-26 14:01 | n8n-Forum Jobs | [Looking for 1–2 n8n Builders for Long-Term Collaboration](https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792) | 3 |
 |  | 2026-09-25 15:00 | n8n-Forum Jobs | [Looking for an n8n Freelancer / Automation Builder](https://community.n8n.io/t/looking-for-an-n8n-freelancer-automation-builder/316359) | 10 |
-|  | 2026-09-23 22:14 | n8n-Forum Jobs | [\[ESPAÑOL\] Buscamos Freelancer Técnico/a IA + Automatización + n8n \| Colaboración por proyectos](https://community.n8n.io/t/espanol-buscamos-freelancer-tecnico-a-ia-automatizacion-n8n-colaboracion-por-proyectos/316044) | 1 |
-|  | 2026-09-23 22:07 | n8n-Forum Jobs | [\[HIRING\] Part-time "household CTO": n8n + Notion + local LLM home setup (LA / remote)](https://community.n8n.io/t/hiring-part-time-household-cto-n8n-notion-local-llm-home-setup-la-remote/315978) | 2 |
 
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
