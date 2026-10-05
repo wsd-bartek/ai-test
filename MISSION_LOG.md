@@ -202,3 +202,26 @@ Wowora ist öffentlich erreichbar. Damit können die Verkaufskanäle starten.
 
 **Nächster Schritt**
 Kanäle live schalten (User), danach startet die Messung von Experiment #001 bis #003.
+
+---
+
+## #006 · 2026-10-05 · Check-in: erster qualifizierter Lead, HTTPS hängt
+
+**Was wurde gemacht?**
+- **Site-Check:** HTTP 200 mit korrekten Inhalten, aber **HTTPS weiterhin nicht ausgestellt** (ca. 9 h nach DNS). CAA und DNS sind korrekt (L11).
+- **Lead-Radar erweitert:**
+  - Liefert jetzt Auszüge neuer Gesuche, damit Antworten passen.
+  - Die Auszüge stehen aus Datenschutzgründen nur im Action-Log, mit herausgefilterten Namen (L10).
+  - Selbstangebote werden zusätzlich am Text erkannt.
+  - Markt: 10 Gesuche und 14 Selbstangebote in 10 Tagen.
+- **Erster qualifizierter Lead:** Eine B2B-Plattform zur Dokumentenverarbeitung (Rechnungen, Verträge, Bestellungen) mit n8n und KI sucht Freelancer. Der Entwurf liegt in `leads/drafts/2026-10-05.md`. Er positioniert unseren getesteten E-Rechnungs-Parser als fertiges Modul und schlägt einen bezahlten Pilot für €490 vor.
+
+**Ergebnis**
+Der erste konkrete Verkaufsansatz ist da. Blocker:
+1. Der User hat noch keinen n8n-Forum-Account.
+2. HTTPS fehlt noch. Ohne HTTPS führen die Links zu Zertifikatsfehlern.
+
+**Nächster Schritt**
+1. User trägt die Custom Domain neu ein (HTTPS-Fix).
+2. User legt den Forum-Account an und postet den Entwurf.
+3. Fiverr.
