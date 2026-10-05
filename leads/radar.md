@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-05 06:48 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-05 06:49 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -23,6 +23,28 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-09-26 14:01 | n8n-Forum Jobs | [Looking for 1–2 n8n Builders for Long-Term Collaboration](https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792) | 3 |
 |  | 2026-09-25 15:00 | n8n-Forum Jobs | [Looking for an n8n Freelancer / Automation Builder](https://community.n8n.io/t/looking-for-an-n8n-freelancer-automation-builder/316359) | 10 |
 
+
+## Auszüge neuer Gesuche (≤ 48 h)
+
+### N8n Automation Developer \| Project-Based & Remote Collaboration
+https://community.n8n.io/t/n8n-automation-developer-project-based-remote-collaboration/318902 · 2026-10-05 03:46 UTC · 1 Antworten
+
+> Looking for n8n Automation Opportunities / Collaboration Hi everyone, I’m Mohsin Ahmed , an AI Automation Developer based in Bangladesh. I’ve been working with n8n and AI automation for about a year. During this time, I’ve built and tested 50+ self-directed automation projects focused on real-world business use cases. My main hands-on skills include: n8n workflow development REST APIs, Webhooks JSON AI / LLM integrations Google Sheets, Gmail Airtable PostgreSQL data processing Lead CRM automation AI chatbots / RAG Data validation deduplication Conditional routing Workflow troubleshooting and error handling Some of the projects I’ve built include: AI Support Chatbot RAG-based chatbot that answers questions from business documents, avoids guessing when information is unavailable, supports multiple languages, and can hand off to a human. Lead Management Automation Lead collection → validati …
+
+### Une plateforme SaaS B2B qui automatise de bout en bout le traitement, l’analyse, la validation et l’intégration des documents d’entreprise grâce à n8n + IA
+https://community.n8n.io/t/une-plateforme-saas-b2b-qui-automatise-de-bout-en-bout-le-traitement-l-analyse-la-validation-et-l-integration-des-documents-d-entreprise-grace-a-n8n-ia/318686 · 2026-10-04 15:42 UTC · 1 Antworten
+
+> Hey everyone I’m currently putting together a team of freelancers for a fairly ambitious project, and I’m looking for a few people who are really good at what they do. The project is built around n8n + AI + automation , but it’s much bigger than a few simple workflows. The idea is to build a platform that can handle company documents from start to finish. For example: → invoices → contracts → purchase orders → financial documents → administrative documents The system would receive the documents, process them, understand what they contain, extract the information, check if everything makes sense, flag anything suspicious, ask for human approval when needed, and then send the validated information to the right systems. There will also be a search / RAG part so users can actually ask questions about their company documents. What I’m expecting n8n will be at the center of the automation. The …
+
+### N8n Builder
+https://community.n8n.io/t/n8n-builder/318658 · 2026-10-04 13:33 UTC · 2 Antworten
+
+> Continuing the discussion from Looking for an n8n Freelancer / Automation Builder : Hi, I saw your post looking for an n8n implementation partner. The setup you described fits closely with the kind of automation work I’m currently building — especially lead capture, qualification, AI-powered workflows, API integrations, webhooks, notifications, and CRM/Sheets automation. I work hands-on in n8n and have built workflows including: • Lead capture → qualification → Google Sheets/CRM → automatic notifications • AI-powered enquiry triage that categorizes messages, summarizes them, and generates suggested responses • Webhook/API-based workflows connecting forms, external services, Gmail, Sheets, and other tools I’m comfortable working with REST APIs, JSON, webhooks, authentication, conditional logic, AI/LLM integrations, and multi-step n8n workflows. I’m also comfortable implementing WhatsApp B …
+
+### Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) \| Remote
+https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516 · 2026-10-03 13:30 UTC · 3 Antworten
+
+> About the Role We are a Saudi-based AI Digital Transformation Agency building end-to-end digital systems, WhatsApp AI engines, process automations, and CRM integrations for fast-growing businesses in the Arab world and MENA region. We are looking for a Hands-on AI Operations Lead to help us build a fully AI-First operational hub . This is not a traditional PM role — we need a system builder, an automation architect, and a problem solver who loves turning complex operational bottlenecks into sleek, automated n8n Make.com workflows. What You’ll Be Building Managing AI-First Operations: Designing and deploying scalable workflows using n8n , LLM APIs (OpenAI, Claude, Gemini), and custom webhooks to eliminate repetitive internal tasks. WhatsApp AI Automations: Building advanced WhatsApp Business API flows integrated with CRMs and AI agents for client and internal operations. Content Engine Au …
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
