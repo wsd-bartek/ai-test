@@ -23,6 +23,7 @@ Jedes Experiment hat eine Hypothese, einen Test, ein Erfolgskriterium und eine E
 - **Ergebnis (laufend):**
   - 2026-10-03, vor dem Start: Der Radar misst 10 Gesuche und 15 Selbstangebote in 10 Tagen, davon kein neues Gesuch in den letzten 36 h.
   - Reddit ist von GitHub Actions aus nicht lesbar.
+  - 2026-10-05: **erster qualifizierter Lead**. Eine B2B-Plattform zur Dokumentenverarbeitung (Rechnungen, Verträge u. a.) sucht n8n-Freelancer. Der Entwurf liegt in `leads/drafts/2026-10-05.md`. Gepostet werden kann er erst, wenn der User einen n8n-Forum-Account hat.
 - **Learning:** siehe L08, L09
 - **Entscheidung:** –
 

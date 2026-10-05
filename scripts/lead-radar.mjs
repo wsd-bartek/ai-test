@@ -101,6 +101,7 @@ const scrub = html => html
   .replace(/[\w.+-]+@[\w-]+\.[\w.]+/g, '[E-Mail entfernt]')
   .replace(/https?:\/\/\S+/g, '[Link]')
   .replace(/\+?\d[\d\s()\/-]{7,}\d/g, '[Nummer entfernt]')
+  .replace(/(I['’]m|I am|my name is|je suis|ich bin|this is)\s+[A-Z][\p{L}-]+(\s+[A-Z][\p{L}-]+)?/gu, '$1 [Name entfernt]')
   .replace(/\s+/g, ' ')
   .trim();
 const details = [];
@@ -108,6 +109,9 @@ for (const l of demand.filter(l => l.topicId && Date.now() - l.created < 48 * 36
   try {
     const t = await getJson(`https://community.n8n.io/t/${l.topicId}.json`);
     const text = scrub(t.post_stream?.posts?.[0]?.cooked ?? '');
+    const selfOffer = /(I['’]m|I am)\b.{0,80}(developer|builder|freelancer|expert|engineer)|my (main )?(hands-on )?skills|I work hands-on|I('ve| have) (built|been working)|looking for .{0,30}opportunit/i.test(text)
+      && !/(we are looking|we['’]re looking|we are hiring|we['’]re hiring|looking for (a|an|someone|people|freelancers|a few)|putting together a team|we need|budget)/i.test(text);
+    if (selfOffer) { supply.push(l); demand.splice(demand.indexOf(l), 1); continue; }
     details.push({ ...l, text: text.length > 900 ? text.slice(0, 900) + ' …' : text });
   } catch (e) { errors.push(`Details ${l.topicId}: ${e.message}`); }
 }
@@ -131,7 +135,7 @@ const lines = [
   ...demand.map(l => `| ${fresh(l.created)} | ${fmt(l.created)} | ${l.source} | [${esc(l.title)}](${l.url}) | ${l.replies} |`),
   '',
   demand.length ? '' : '_Keine Gesuche gefunden._',
-  ...(details.length ? ['## Auszüge neuer Gesuche (≤ 48 h)', '', ...details.flatMap(d => [`### ${esc(d.title)}`, `${d.url} · ${fmt(d.created)} UTC · ${d.replies} Antworten`, '', `> ${d.text.replace(/\n/g, ' ')}`, ''])] : []),
+  details.length ? `_Auszüge der ${details.length} neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._\n` : '',
   '<details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>',
   '',
   ...supply.map(l => `- ${fmt(l.created)} · ${l.source} · [${esc(l.title)}](${l.url})`),
@@ -142,4 +146,5 @@ const lines = [
   '',
 ];
 writeFileSync(new URL('../leads/radar.md', import.meta.url), lines.join('\n'));
+for (const d of details) console.log(`\n=== GESUCH: ${d.title}\n${d.url} · ${fmt(d.created)} UTC · ${d.replies} Antworten\n${d.text}`);
 console.log(`demand=${demand.length} supply=${supply.length} errors=${errors.length}`, errors, rawCounts);
