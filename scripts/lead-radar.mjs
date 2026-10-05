@@ -26,6 +26,7 @@ async function n8nJobs() {
         source: 'n8n-Forum Jobs',
         title: t.title,
         url: `https://community.n8n.io/t/${t.slug}/${t.id}`,
+        topicId: t.id,
         created,
         replies: t.reply_count ?? Math.max(0, (t.posts_count ?? 1) - 1),
       });
@@ -92,6 +93,25 @@ const isSupply = l => /\[?\s*for\s*hire\s*\]?|available|looking for (remote )?wo
 const demand = leads.filter(l => !isSupply(l));
 const supply = leads.filter(isSupply);
 
+// Auszüge für neue Gesuche (≤ 48 h), damit der Agent passende Antworten schreiben kann.
+// Kontaktdaten (E-Mail, Telefon, Links) werden entfernt; nur der öffentliche Text, gekürzt.
+const scrub = html => html
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/&[a-z#0-9]+;/gi, ' ')
+  .replace(/[\w.+-]+@[\w-]+\.[\w.]+/g, '[E-Mail entfernt]')
+  .replace(/https?:\/\/\S+/g, '[Link]')
+  .replace(/\+?\d[\d\s()\/-]{7,}\d/g, '[Nummer entfernt]')
+  .replace(/\s+/g, ' ')
+  .trim();
+const details = [];
+for (const l of demand.filter(l => l.topicId && Date.now() - l.created < 48 * 3600e3)) {
+  try {
+    const t = await getJson(`https://community.n8n.io/t/${l.topicId}.json`);
+    const text = scrub(t.post_stream?.posts?.[0]?.cooked ?? '');
+    details.push({ ...l, text: text.length > 900 ? text.slice(0, 900) + ' …' : text });
+  } catch (e) { errors.push(`Details ${l.topicId}: ${e.message}`); }
+}
+
 const fmt = ts => new Date(ts).toISOString().slice(0, 16).replace('T', ' ');
 const esc = s => s.replace(/\|/g, '\\|').replace(/([\[\]])/g, '\\$1').replace(/\s+/g, ' ').trim();
 const fresh = ts => Date.now() - ts < 36 * 3600e3 ? '🆕 ' : '';
@@ -111,6 +131,7 @@ const lines = [
   ...demand.map(l => `| ${fresh(l.created)} | ${fmt(l.created)} | ${l.source} | [${esc(l.title)}](${l.url}) | ${l.replies} |`),
   '',
   demand.length ? '' : '_Keine Gesuche gefunden._',
+  ...(details.length ? ['## Auszüge neuer Gesuche (≤ 48 h)', '', ...details.flatMap(d => [`### ${esc(d.title)}`, `${d.url} · ${fmt(d.created)} UTC · ${d.replies} Antworten`, '', `> ${d.text.replace(/\n/g, ' ')}`, ''])] : []),
   '<details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>',
   '',
   ...supply.map(l => `- ${fmt(l.created)} · ${l.source} · [${esc(l.title)}](${l.url})`),
