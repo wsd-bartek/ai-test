@@ -1,18 +1,16 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-05 06:51 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-05 06:52 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 12 Gesuche (Nachfrage) · 12 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 14 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
-| 🆕  | 2026-10-05 03:46 | n8n-Forum Jobs | [N8n Automation Developer \| Project-Based & Remote Collaboration](https://community.n8n.io/t/n8n-automation-developer-project-based-remote-collaboration/318902) | 1 |
 | 🆕  | 2026-10-04 15:42 | n8n-Forum Jobs | [Une plateforme SaaS B2B qui automatise de bout en bout le traitement, l’analyse, la validation et l’intégration des documents d’entreprise grâce à n8n + IA](https://community.n8n.io/t/une-plateforme-saas-b2b-qui-automatise-de-bout-en-bout-le-traitement-l-analyse-la-validation-et-l-integration-des-documents-d-entreprise-grace-a-n8n-ia/318686) | 1 |
-| 🆕  | 2026-10-04 13:33 | n8n-Forum Jobs | [N8n Builder](https://community.n8n.io/t/n8n-builder/318658) | 2 |
 |  | 2026-10-03 13:30 | n8n-Forum Jobs | [Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) \| Remote](https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516) | 3 |
 |  | 2026-09-29 14:22 | n8n-Forum Jobs | [Analista de Automação com IA (Pleno)](https://community.n8n.io/t/analista-de-automacao-com-ia-pleno/317607) | 0 |
 |  | 2026-09-29 12:26 | n8n-Forum Jobs | [\[HIRING\] n8n + Looker Studio builder for marketing reporting (Meta Ads, Google Ads, GA4) \| Paid test → ongoing \| India/IST](https://community.n8n.io/t/hiring-n8n-looker-studio-builder-for-marketing-reporting-meta-ads-google-ads-ga4-paid-test-ongoing-india-ist/317595) | 0 |
@@ -24,7 +22,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-09-25 15:00 | n8n-Forum Jobs | [Looking for an n8n Freelancer / Automation Builder](https://community.n8n.io/t/looking-for-an-n8n-freelancer-automation-builder/316359) | 10 |
 
 
-_Auszüge der 4 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
+_Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
@@ -40,6 +38,8 @@ _Auszüge der 4 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 - 2026-09-28 13:27 · n8n-Forum Jobs · [\[For Hire\] Repeatable CSV cleanup — duplicate tracking and a review report](https://community.n8n.io/t/for-hire-repeatable-csv-cleanup-duplicate-tracking-and-a-review-report/317305)
 - 2026-09-28 13:07 · n8n-Forum Jobs · [N8n automation builder available for AI agent, voice and lead workflow projects,and any kind of n8n automation building](https://community.n8n.io/t/n8n-automation-builder-available-for-ai-agent-voice-and-lead-workflow-projects-and-any-kind-of-n8n-automation-building/317301)
 - 2026-09-28 06:27 · n8n-Forum Jobs · [For Hire\] n8n + AI automation builder — self-hosted workflows, WhatsApp, API integrations](https://community.n8n.io/t/for-hire-n8n-ai-automation-builder-self-hosted-workflows-whatsapp-api-integrations/317167)
+- 2026-10-05 03:46 · n8n-Forum Jobs · [N8n Automation Developer \| Project-Based & Remote Collaboration](https://community.n8n.io/t/n8n-automation-developer-project-based-remote-collaboration/318902)
+- 2026-10-04 13:33 · n8n-Forum Jobs · [N8n Builder](https://community.n8n.io/t/n8n-builder/318658)
 
 </details>
 
