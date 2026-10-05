@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-05 12:22 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-05 21:09 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 14 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 9 Gesuche (Nachfrage) · 14 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -19,10 +19,9 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-09-28 01:51 | n8n-Forum Jobs | [Help Needed: Building an AI-Powered Personalized Fitness Plan Automation with n8n + Google Forms + WhatsApp](https://community.n8n.io/t/help-needed-building-an-ai-powered-personalized-fitness-plan-automation-with-n8n-google-forms-whatsapp/317002) | 1 |
 |  | 2026-09-27 23:47 | n8n-Forum Jobs | [Human approval in n8n: what does the reviewer actually need to see?](https://community.n8n.io/t/human-approval-in-n8n-what-does-the-reviewer-actually-need-to-see/316994) | 0 |
 |  | 2026-09-26 14:01 | n8n-Forum Jobs | [Looking for 1–2 n8n Builders for Long-Term Collaboration](https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792) | 3 |
-|  | 2026-09-25 15:00 | n8n-Forum Jobs | [Looking for an n8n Freelancer / Automation Builder](https://community.n8n.io/t/looking-for-an-n8n-freelancer-automation-builder/316359) | 10 |
 
 
-_Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
+_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
