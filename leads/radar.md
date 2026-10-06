@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-06 12:05 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-06 18:56 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -12,16 +12,16 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |---|---|---|---|---|
 | 🆕  | 2026-10-06 07:54 | n8n-Forum Jobs | [HIRING : Baserow Product specialist (German speaking)!](https://community.n8n.io/t/hiring-baserow-product-specialist-german-speaking/319118) | 1 |
 |  | 2026-10-04 15:42 | n8n-Forum Jobs | [Une plateforme SaaS B2B qui automatise de bout en bout le traitement, l’analyse, la validation et l’intégration des documents d’entreprise grâce à n8n + IA](https://community.n8n.io/t/une-plateforme-saas-b2b-qui-automatise-de-bout-en-bout-le-traitement-l-analyse-la-validation-et-l-integration-des-documents-d-entreprise-grace-a-n8n-ia/318686) | 1 |
+|  | 2026-10-04 13:33 | n8n-Forum Jobs | [N8n Builder](https://community.n8n.io/t/n8n-builder/318658) | 2 |
 |  | 2026-10-03 13:30 | n8n-Forum Jobs | [Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) \| Remote](https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516) | 5 |
 |  | 2026-09-29 14:22 | n8n-Forum Jobs | [Analista de Automação com IA (Pleno)](https://community.n8n.io/t/analista-de-automacao-com-ia-pleno/317607) | 0 |
 |  | 2026-09-29 12:26 | n8n-Forum Jobs | [\[HIRING\] n8n + Looker Studio builder for marketing reporting (Meta Ads, Google Ads, GA4) \| Paid test → ongoing \| India/IST](https://community.n8n.io/t/hiring-n8n-looker-studio-builder-for-marketing-reporting-meta-ads-google-ads-ga4-paid-test-ongoing-india-ist/317595) | 0 |
 |  | 2026-09-29 11:01 | n8n-Forum Jobs | [Gesucht: Teacher Business Automation Expert (Festanstellung ,remote)](https://community.n8n.io/t/gesucht-teacher-business-automation-expert-festanstellung-remote/317583) | 0 |
 |  | 2026-09-28 05:23 | n8n-Forum Jobs | [\[HIRING\] Multi-Agent B2B Lead Gen System \| n8n + LangGraph \| Energy Storage (Na/Li Battery)](https://community.n8n.io/t/hiring-multi-agent-b2b-lead-gen-system-n8n-langgraph-energy-storage-na-li-battery/317073) | 2 |
 |  | 2026-09-28 01:51 | n8n-Forum Jobs | [Help Needed: Building an AI-Powered Personalized Fitness Plan Automation with n8n + Google Forms + WhatsApp](https://community.n8n.io/t/help-needed-building-an-ai-powered-personalized-fitness-plan-automation-with-n8n-google-forms-whatsapp/317002) | 1 |
-|  | 2026-09-26 14:01 | n8n-Forum Jobs | [Looking for 1–2 n8n Builders for Long-Term Collaboration](https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792) | 3 |
 
 
-_Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
+_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
@@ -37,8 +37,8 @@ _Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 - 2026-09-28 13:27 · n8n-Forum Jobs · [\[For Hire\] Repeatable CSV cleanup — duplicate tracking and a review report](https://community.n8n.io/t/for-hire-repeatable-csv-cleanup-duplicate-tracking-and-a-review-report/317305)
 - 2026-09-28 13:07 · n8n-Forum Jobs · [N8n automation builder available for AI agent, voice and lead workflow projects,and any kind of n8n automation building](https://community.n8n.io/t/n8n-automation-builder-available-for-ai-agent-voice-and-lead-workflow-projects-and-any-kind-of-n8n-automation-building/317301)
 - 2026-09-28 06:27 · n8n-Forum Jobs · [For Hire\] n8n + AI automation builder — self-hosted workflows, WhatsApp, API integrations](https://community.n8n.io/t/for-hire-n8n-ai-automation-builder-self-hosted-workflows-whatsapp-api-integrations/317167)
+- 2026-10-06 12:27 · n8n-Forum Jobs · [Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share](https://community.n8n.io/t/looking-for-a-b2b-lead-generation-sales-partner-for-n8n-ai-automation-revenue-share/319139)
 - 2026-10-05 03:46 · n8n-Forum Jobs · [N8n Automation Developer \| Project-Based & Remote Collaboration](https://community.n8n.io/t/n8n-automation-developer-project-based-remote-collaboration/318902)
-- 2026-10-04 13:33 · n8n-Forum Jobs · [N8n Builder](https://community.n8n.io/t/n8n-builder/318658)
 
 </details>
 
