@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-07 06:48 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-07 11:50 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -10,7 +10,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
-| 🆕  | 2026-10-06 21:10 | n8n-Forum Jobs | [Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing](https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256) | 2 |
+| 🆕  | 2026-10-06 21:10 | n8n-Forum Jobs | [Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing](https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256) | 3 |
 | 🆕  | 2026-10-06 07:54 | n8n-Forum Jobs | [HIRING : Baserow Product specialist (German speaking)!](https://community.n8n.io/t/hiring-baserow-product-specialist-german-speaking/319118) | 1 |
 |  | 2026-10-05 03:46 | n8n-Forum Jobs | [N8n Automation Developer \| Project-Based & Remote Collaboration](https://community.n8n.io/t/n8n-automation-developer-project-based-remote-collaboration/318902) | 1 |
 |  | 2026-10-05 03:40 | n8n-Forum Jobs | [Looking for a High-Volume Payments / Merchant Infrastructure Partner](https://community.n8n.io/t/looking-for-a-high-volume-payments-merchant-infrastructure-partner/318897) | 0 |
