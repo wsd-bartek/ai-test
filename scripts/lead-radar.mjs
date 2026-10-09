@@ -109,7 +109,7 @@ for (const l of demand.filter(l => l.topicId && Date.now() - l.created < 48 * 36
   try {
     const t = await getJson(`https://community.n8n.io/t/${l.topicId}.json`);
     const text = scrub(t.post_stream?.posts?.[0]?.cooked ?? '');
-    const selfSignals = /(I['’]m|I am)\b.{0,80}(developer|builder|freelancer|expert|engineer)|my (main )?(hands-on )?skills|I work hands-on|I('ve| have) (built|been working)|looking for .{0,30}opportunit|I saw your post|open to (new )?(projects|work|collaboration)/i;
+    const selfSignals = /(I['’]m|I am)\b.{0,80}(developer|builder|freelancer|expert|engineer)|my (main )?(hands-on )?skills|I work hands-on|I('ve| have) (built|been working)|looking for .{0,30}opportunit|I saw your post|open to (new )?(projects|work|collaboration)|I['’]?m looking for an? .{0,60}\brole\b|I am available|I['’]m available|available today/i;
     const demandSignals = /(we are looking|we['’]re looking|we are hiring|we['’]re hiring|putting together a team|we need|our team needs|budget|paid project|will pay|\bhiring\b)/i;
     const selfOffer = selfSignals.test(text) && !demandSignals.test(text);
     if (selfOffer) { supply.push(l); demand.splice(demand.indexOf(l), 1); continue; }

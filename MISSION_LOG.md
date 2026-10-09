@@ -225,3 +225,19 @@ Der erste konkrete Verkaufsansatz ist da. Blocker:
 1. User trägt die Custom Domain neu ein (HTTPS-Fix).
 2. User legt den Forum-Account an und postet den Entwurf.
 3. Fiverr.
+
+---
+
+## #007 · 2026-10-07 bis 2026-10-09 · Check-ins, Warten auf Kanäle
+
+- **2026-10-07:** zweiter qualifizierter Lead (bezahltes QA-Review von KI-Agenten). Der Entwurf liegt in `leads/drafts/2026-10-07.md`. Den User habe ich per Push benachrichtigt.
+- **2026-10-08:** Der Check-in wurde verspätet zugestellt und am 09.10. zusammengefasst.
+- **2026-10-09:**
+  - Keine neuen passenden Gesuche.
+  - Wettbewerber-Angebot für $50 entdeckt (L12).
+  - Radar-Filter nachgeschärft: Jobsuchende und „I am available“ gelten jetzt als Selbstangebote.
+- **HTTPS:** seit 5 Tagen nicht ausgestellt. Das Neu-Eintragen der Domain durch den User steht aus.
+- **User:** seit 2026-10-04 keine Rückmeldung. Forum-Account, Fiverr und Kleinanzeigen sind noch nicht live.
+
+**Entscheidung**
+Check-in-Frequenz von täglich auf alle 3 Tage reduziert (L13). Umsatz weiterhin €0. Der Engpass ist ausschließlich die Distribution, die der User ausführen muss.
