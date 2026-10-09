@@ -1,16 +1,17 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-09 11:57 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-09 18:51 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 9 Gesuche (Nachfrage) · 14 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 9 Gesuche (Nachfrage) · 13 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
 | 🆕  | 2026-10-08 14:53 | n8n-Forum Jobs | [Looking for a Technical Co-Founder / Partner AI Implementation Business](https://community.n8n.io/t/looking-for-a-technical-co-founder-partner-ai-implementation-business/319764) | 1 |
+|  | 2026-10-07 15:47 | n8n-Forum Jobs | [Same-day n8n workflow rescue - $50 fixed for one bounded bug](https://community.n8n.io/t/same-day-n8n-workflow-rescue-50-fixed-for-one-bounded-bug/319566) | 0 |
 |  | 2026-10-06 21:10 | n8n-Forum Jobs | [Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing](https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256) | 5 |
 |  | 2026-10-06 12:27 | n8n-Forum Jobs | [Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share](https://community.n8n.io/t/looking-for-a-b2b-lead-generation-sales-partner-for-n8n-ai-automation-revenue-share/319139) | 0 |
 |  | 2026-10-06 07:54 | n8n-Forum Jobs | [HIRING : Baserow Product specialist (German speaking)!](https://community.n8n.io/t/hiring-baserow-product-specialist-german-speaking/319118) | 1 |
@@ -18,7 +19,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-05 03:40 | n8n-Forum Jobs | [Looking for a High-Volume Payments / Merchant Infrastructure Partner](https://community.n8n.io/t/looking-for-a-high-volume-payments-merchant-infrastructure-partner/318897) | 0 |
 |  | 2026-10-04 13:33 | n8n-Forum Jobs | [N8n Builder](https://community.n8n.io/t/n8n-builder/318658) | 2 |
 |  | 2026-10-03 13:30 | n8n-Forum Jobs | [Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) \| Remote](https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516) | 8 |
-|  | 2026-09-29 12:26 | n8n-Forum Jobs | [\[HIRING\] n8n + Looker Studio builder for marketing reporting (Meta Ads, Google Ads, GA4) \| Paid test → ongoing \| India/IST](https://community.n8n.io/t/hiring-n8n-looker-studio-builder-for-marketing-reporting-meta-ads-google-ads-ga4-paid-test-ongoing-india-ist/317595) | 0 |
 
 
 _Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
@@ -38,7 +38,6 @@ _Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 - 2026-10-02 11:08 · n8n-Forum Jobs · [\[For Hire\] n8n automation: fixes, form/email to CRM, document extraction (EU, fixed price)](https://community.n8n.io/t/for-hire-n8n-automation-fixes-form-email-to-crm-document-extraction-eu-fixed-price/318215)
 - 2026-10-08 21:37 · n8n-Forum Jobs · [\[Open to Collabs\] Want to build my n8n skills and assist on projects](https://community.n8n.io/t/open-to-collabs-want-to-build-my-n8n-skills-and-assist-on-projects/319989)
 - 2026-10-08 03:47 · n8n-Forum Jobs · [Technical Account Manager / Customer Success Manager w/heavy n8n experience](https://community.n8n.io/t/technical-account-manager-customer-success-manager-w-heavy-n8n-experience/319647)
-- 2026-10-07 15:47 · n8n-Forum Jobs · [Same-day n8n workflow rescue - $50 fixed for one bounded bug](https://community.n8n.io/t/same-day-n8n-workflow-rescue-50-fixed-for-one-bounded-bug/319566)
 
 </details>
 
