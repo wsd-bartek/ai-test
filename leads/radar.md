@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-10 11:14 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-10 17:53 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -23,7 +23,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-03 13:30 | n8n-Forum Jobs | [Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) \| Remote](https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516) | 8 |
 
 
-_Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
+_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
