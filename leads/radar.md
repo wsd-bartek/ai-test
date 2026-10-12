@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-11 18:09 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-12 13:16 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -24,10 +24,11 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-03 13:30 | n8n-Forum Jobs | [Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) \| Remote](https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516) | 8 |
 
 
-_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
+- 2026-10-11 23:04 · n8n-Forum Jobs · [\[For Hire\] Duplicate CRM tasks from n8n — recovery demo + source](https://community.n8n.io/t/for-hire-duplicate-crm-tasks-from-n8n-recovery-demo-source/320657)
+- 2026-10-11 20:15 · n8n-Forum Jobs · [\[For Hire\] n8n automations with an AI step, fixed price, built in Vienna (EN/DE)](https://community.n8n.io/t/for-hire-n8n-automations-with-an-ai-step-fixed-price-built-in-vienna-en-de/320637)
 - 2026-10-11 08:08 · n8n-Forum Jobs · [\[For Hire\] One JavaScript/Python data-mapping fix for $25](https://community.n8n.io/t/for-hire-one-javascript-python-data-mapping-fix-for-25/320567)
 - 2026-10-10 20:49 · n8n-Forum Jobs · [\[For Hire\] Spanish/English AI automation builder — fixed-price, pay after you test it](https://community.n8n.io/t/for-hire-spanish-english-ai-automation-builder-fixed-price-pay-after-you-test-it/320473)
 - 2026-10-10 06:26 · n8n-Forum Jobs · [\[for hire\] AI AUTOMATION AND WORKFLOW DEV](https://community.n8n.io/t/for-hire-ai-automation-and-workflow-dev/320206)
@@ -37,8 +38,6 @@ _Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 - 2026-10-08 10:30 · n8n-Forum Jobs · [\[FOR HIRE\] Fix your n8n workflows before the Oct 23 OpenAI model shutdowns and n8n 3.0 (fixed price, n8n-sunset author)](https://community.n8n.io/t/for-hire-fix-your-n8n-workflows-before-the-oct-23-openai-model-shutdowns-and-n8n-3-0-fixed-price-n8n-sunset-author/319697)
 - 2026-10-07 16:37 · n8n-Forum Jobs · [\[FOR HIRE\] n8n + AI Automation Builder \| APIs, Webhooks, Supabase/PostgreSQL \| Small Jobs Welcome](https://community.n8n.io/t/for-hire-n8n-ai-automation-builder-apis-webhooks-supabase-postgresql-small-jobs-welcome/319574)
 - 2026-10-05 04:56 · n8n-Forum Jobs · [\[For Hire\] n8n builds and fixes — every workflow ships with failure alerts](https://community.n8n.io/t/for-hire-n8n-builds-and-fixes-every-workflow-ships-with-failure-alerts/318911)
-- 2026-10-04 14:56 · n8n-Forum Jobs · [\[FOR HIRE\] n8n + AI Agent Automation Developer, fixed-price or hourly, EN / FR / AR](https://community.n8n.io/t/for-hire-n8n-ai-agent-automation-developer-fixed-price-or-hourly-en-fr-ar/318675)
-- 2026-10-02 19:39 · n8n-Forum Jobs · [\[For Hire\] n8n Automation Builder – Looking for Agency / Long-Term Collaboration \| Remote EU](https://community.n8n.io/t/for-hire-n8n-automation-builder-looking-for-agency-long-term-collaboration-remote-eu/318406)
 
 </details>
 
