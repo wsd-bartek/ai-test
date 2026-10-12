@@ -1,15 +1,16 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-12 13:16 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-12 21:46 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 12 Gesuche (Nachfrage) · 11 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 13 Gesuche (Nachfrage) · 12 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
+| 🆕  | 2026-10-12 16:47 | n8n-Forum Jobs | [Anchornova Automations](https://community.n8n.io/t/anchornova-automations/320861) | 0 |
 |  | 2026-10-09 20:48 | n8n-Forum Jobs | [AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership](https://community.n8n.io/t/ai-marketing-n8n-automation-specialist-for-chill-life-potential-long-term-partnership/320146) | 0 |
 |  | 2026-10-08 21:37 | n8n-Forum Jobs | [\[Open to Collabs\] Want to build my n8n skills and assist on projects](https://community.n8n.io/t/open-to-collabs-want-to-build-my-n8n-skills-and-assist-on-projects/319989) | 0 |
 |  | 2026-10-08 14:53 | n8n-Forum Jobs | [Looking for a Technical Co-Founder / Partner AI Implementation Business](https://community.n8n.io/t/looking-for-a-technical-co-founder-partner-ai-implementation-business/319764) | 1 |
@@ -24,9 +25,11 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-03 13:30 | n8n-Forum Jobs | [Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) \| Remote](https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516) | 8 |
 
 
+_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
+- 2026-10-12 18:30 · n8n-Forum Jobs · [\[For Hire\] API/webhook duplicate and data-validation diagnostics — from $50](https://community.n8n.io/t/for-hire-api-webhook-duplicate-and-data-validation-diagnostics-from-50/320875)
 - 2026-10-11 23:04 · n8n-Forum Jobs · [\[For Hire\] Duplicate CRM tasks from n8n — recovery demo + source](https://community.n8n.io/t/for-hire-duplicate-crm-tasks-from-n8n-recovery-demo-source/320657)
 - 2026-10-11 20:15 · n8n-Forum Jobs · [\[For Hire\] n8n automations with an AI step, fixed price, built in Vienna (EN/DE)](https://community.n8n.io/t/for-hire-n8n-automations-with-an-ai-step-fixed-price-built-in-vienna-en-de/320637)
 - 2026-10-11 08:08 · n8n-Forum Jobs · [\[For Hire\] One JavaScript/Python data-mapping fix for $25](https://community.n8n.io/t/for-hire-one-javascript-python-data-mapping-fix-for-25/320567)
