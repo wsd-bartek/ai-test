@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-15 10:03 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-15 17:48 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -10,7 +10,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
-| 🆕  | 2026-10-14 19:43 | n8n-Forum Jobs | [Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet](https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496) | 0 |
+| 🆕  | 2026-10-14 19:43 | n8n-Forum Jobs | [Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet](https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496) | 2 |
 | 🆕  | 2026-10-14 13:55 | n8n-Forum Jobs | [\[HIRING\] AI / n8n builders in SEA for small, paid SME automation jobs (Singapore)](https://community.n8n.io/t/hiring-ai-n8n-builders-in-sea-for-small-paid-sme-automation-jobs-singapore/321311) | 2 |
 | 🆕  | 2026-10-14 07:03 | n8n-Forum Jobs | [Looking for Founding n8n Automation Creators \| Osmium](https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244) | 0 |
 |  | 2026-10-12 16:47 | n8n-Forum Jobs | [Anchornova Automations](https://community.n8n.io/t/anchornova-automations/320861) | 0 |
