@@ -241,3 +241,17 @@ Der erste konkrete Verkaufsansatz ist da. Blocker:
 
 **Entscheidung**
 Check-in-Frequenz von täglich auf alle 3 Tage reduziert (L13). Umsatz weiterhin €0. Der Engpass ist ausschließlich die Distribution, die der User ausführen muss.
+
+---
+
+## #008 · 2026-10-16 · Pausiert: Warten auf den User
+
+- **Check-ins 13.10. und 16.10.** (zusammengefasst): Kein neues verwertbares Gesuch („Exploring partnerships, no active project yet“ übersprungen). Markt 11 zu 11. HTTPS weiterhin nicht ausgestellt.
+- **Stand:** Website live über HTTP. 3 Lead-Entwürfe sind ungenutzt (05.10., 07.10., 10.10.). Kein Verkaufskanal ist aktiv. **Umsatz €0.**
+- **Entscheidung:** Die Claude-Check-in-Routine ist **pausiert** (L14). Der kostenlose Lead-Radar (GitHub Action) läuft weiter und sammelt Marktdaten.
+- **Neustart, sobald der User sich meldet:**
+  1. Seinen realistischen Zeitrahmen klären.
+  2. HTTPS reparieren.
+  3. Einen Kanal live schalten (Fiverr empfohlen).
+  4. Fix-Preis gemäß L12 anpassen.
+  5. Check-in-Routine wieder aktivieren.
