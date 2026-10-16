@@ -1,15 +1,16 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-16 09:55 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-16 17:30 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 11 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 10 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
+| 🆕  | 2026-10-16 17:28 | n8n-Forum Jobs | [Free pilot: checking differences between two CSV exports](https://community.n8n.io/t/free-pilot-checking-differences-between-two-csv-exports/321881) | 0 |
 |  | 2026-10-14 19:43 | n8n-Forum Jobs | [Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet](https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496) | 2 |
 |  | 2026-10-14 13:55 | n8n-Forum Jobs | [\[HIRING\] AI / n8n builders in SEA for small, paid SME automation jobs (Singapore)](https://community.n8n.io/t/hiring-ai-n8n-builders-in-sea-for-small-paid-sme-automation-jobs-singapore/321311) | 2 |
 |  | 2026-10-14 07:03 | n8n-Forum Jobs | [Looking for Founding n8n Automation Creators \| Osmium](https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244) | 0 |
@@ -19,7 +20,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-08 14:53 | n8n-Forum Jobs | [Looking for a Technical Co-Founder / Partner AI Implementation Business](https://community.n8n.io/t/looking-for-a-technical-co-founder-partner-ai-implementation-business/319764) | 1 |
 |  | 2026-10-08 03:47 | n8n-Forum Jobs | [Technical Account Manager / Customer Success Manager w/heavy n8n experience](https://community.n8n.io/t/technical-account-manager-customer-success-manager-w-heavy-n8n-experience/319647) | 0 |
 |  | 2026-10-06 21:10 | n8n-Forum Jobs | [Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing](https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256) | 6 |
-|  | 2026-10-06 12:27 | n8n-Forum Jobs | [Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share](https://community.n8n.io/t/looking-for-a-b2b-lead-generation-sales-partner-for-n8n-ai-automation-revenue-share/319139) | 0 |
 
 
 _Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
@@ -36,10 +36,9 @@ _Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 - 2026-10-10 20:49 · n8n-Forum Jobs · [\[For Hire\] Spanish/English AI automation builder — fixed-price, pay after you test it](https://community.n8n.io/t/for-hire-spanish-english-ai-automation-builder-fixed-price-pay-after-you-test-it/320473)
 - 2026-10-10 06:26 · n8n-Forum Jobs · [\[for hire\] AI AUTOMATION AND WORKFLOW DEV](https://community.n8n.io/t/for-hire-ai-automation-and-workflow-dev/320206)
 - 2026-10-08 18:29 · n8n-Forum Jobs · [\[For Hire\] $150 diagnosis for one failing n8n workflow](https://community.n8n.io/t/for-hire-150-diagnosis-for-one-failing-n8n-workflow/319971)
-- 2026-10-08 16:04 · n8n-Forum Jobs · [\[FOR HIRE\] $35 offline workflow review — five failure cases and a written report](https://community.n8n.io/t/for-hire-35-offline-workflow-review-five-failure-cases-and-a-written-report/319945)
 
 </details>
 
-> Quellen mit Fehlern: r/n8n: 403 Blocked (auch RSS); r/forhire: 403 Blocked (auch RSS); r/automation: 403 Blocked (auch RSS)
+> Quellen mit Fehlern: r/n8n: RSS ohne Einträge (vermutlich blockiert); r/forhire: RSS ohne Einträge (vermutlich blockiert); r/automation: RSS ohne Einträge (vermutlich blockiert)
 
 _Rohdaten pro Quelle (vor Filter): –_
