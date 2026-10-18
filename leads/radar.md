@@ -1,17 +1,17 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-18 16:35 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-18 19:28 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 7 Gesuche (Nachfrage) · 9 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 7 Gesuche (Nachfrage) · 8 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
 |  | 2026-10-16 20:38 | n8n-Forum Jobs | [N8n + MirrorFly Developer for Video Conferencing Automation](https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016) | 6 |
-|  | 2026-10-16 17:28 | n8n-Forum Jobs | [Free pilot: checking differences between two CSV exports](https://community.n8n.io/t/free-pilot-checking-differences-between-two-csv-exports/321881) | 4 |
+|  | 2026-10-16 17:28 | n8n-Forum Jobs | [Free pilot: checking differences between two CSV exports](https://community.n8n.io/t/free-pilot-checking-differences-between-two-csv-exports/321881) | 5 |
 |  | 2026-10-14 19:43 | n8n-Forum Jobs | [Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet](https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496) | 5 |
 |  | 2026-10-14 13:55 | n8n-Forum Jobs | [\[HIRING\] AI / n8n builders in SEA for small, paid SME automation jobs (Singapore)](https://community.n8n.io/t/hiring-ai-n8n-builders-in-sea-for-small-paid-sme-automation-jobs-singapore/321311) | 2 |
 |  | 2026-10-14 07:03 | n8n-Forum Jobs | [Looking for Founding n8n Automation Creators \| Osmium](https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244) | 0 |
@@ -19,7 +19,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-08 21:37 | n8n-Forum Jobs | [\[Open to Collabs\] Want to build my n8n skills and assist on projects](https://community.n8n.io/t/open-to-collabs-want-to-build-my-n8n-skills-and-assist-on-projects/319989) | 0 |
 
 
-_Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
+_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
@@ -30,7 +30,6 @@ _Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 - 2026-10-14 00:23 · n8n-Forum Jobs · [\[For Hire\] Fixed-price n8n and AI automations, built and tested (UK)](https://community.n8n.io/t/for-hire-fixed-price-n8n-and-ai-automations-built-and-tested-uk/321190)
 - 2026-10-13 21:57 · n8n-Forum Jobs · [\[Available for Hire\] n8n + WhatsApp Cloud API specialist — AI attendance/lead engines in production (EN/PT/ES)](https://community.n8n.io/t/available-for-hire-n8n-whatsapp-cloud-api-specialist-ai-attendance-lead-engines-in-production-en-pt-es/321179)
 - 2026-10-13 09:58 · n8n-Forum Jobs · [\[For Hire\] n8n & AI Automation, API Integrations, Web Apps](https://community.n8n.io/t/for-hire-n8n-ai-automation-api-integrations-web-apps/321091)
-- 2026-10-12 18:30 · n8n-Forum Jobs · [\[For Hire\] API/webhook duplicate and data-validation diagnostics — from $50](https://community.n8n.io/t/for-hire-api-webhook-duplicate-and-data-validation-diagnostics-from-50/320875)
 - 2026-10-11 23:04 · n8n-Forum Jobs · [\[For Hire\] Duplicate CRM tasks from n8n — recovery demo + source](https://community.n8n.io/t/for-hire-duplicate-crm-tasks-from-n8n-recovery-demo-source/320657)
 
 </details>
