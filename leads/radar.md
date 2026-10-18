@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-18 09:42 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-18 16:35 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 8 Gesuche (Nachfrage) · 9 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 7 Gesuche (Nachfrage) · 9 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -17,7 +17,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-14 07:03 | n8n-Forum Jobs | [Looking for Founding n8n Automation Creators \| Osmium](https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244) | 0 |
 |  | 2026-10-09 20:48 | n8n-Forum Jobs | [AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership](https://community.n8n.io/t/ai-marketing-n8n-automation-specialist-for-chill-life-potential-long-term-partnership/320146) | 0 |
 |  | 2026-10-08 21:37 | n8n-Forum Jobs | [\[Open to Collabs\] Want to build my n8n skills and assist on projects](https://community.n8n.io/t/open-to-collabs-want-to-build-my-n8n-skills-and-assist-on-projects/319989) | 0 |
-|  | 2026-10-08 14:53 | n8n-Forum Jobs | [Looking for a Technical Co-Founder / Partner AI Implementation Business](https://community.n8n.io/t/looking-for-a-technical-co-founder-partner-ai-implementation-business/319764) | 1 |
 
 
 _Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
