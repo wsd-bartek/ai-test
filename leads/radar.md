@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-17 19:28 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-18 09:42 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -10,8 +10,8 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
-| 🆕  | 2026-10-16 20:38 | n8n-Forum Jobs | [N8n + MirrorFly Developer for Video Conferencing Automation](https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016) | 4 |
-| 🆕  | 2026-10-16 17:28 | n8n-Forum Jobs | [Free pilot: checking differences between two CSV exports](https://community.n8n.io/t/free-pilot-checking-differences-between-two-csv-exports/321881) | 4 |
+|  | 2026-10-16 20:38 | n8n-Forum Jobs | [N8n + MirrorFly Developer for Video Conferencing Automation](https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016) | 6 |
+|  | 2026-10-16 17:28 | n8n-Forum Jobs | [Free pilot: checking differences between two CSV exports](https://community.n8n.io/t/free-pilot-checking-differences-between-two-csv-exports/321881) | 4 |
 |  | 2026-10-14 19:43 | n8n-Forum Jobs | [Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet](https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496) | 5 |
 |  | 2026-10-14 13:55 | n8n-Forum Jobs | [\[HIRING\] AI / n8n builders in SEA for small, paid SME automation jobs (Singapore)](https://community.n8n.io/t/hiring-ai-n8n-builders-in-sea-for-small-paid-sme-automation-jobs-singapore/321311) | 2 |
 |  | 2026-10-14 07:03 | n8n-Forum Jobs | [Looking for Founding n8n Automation Creators \| Osmium](https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244) | 0 |
