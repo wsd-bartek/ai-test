@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-19 10:54 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-19 19:22 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 6 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 7 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -26,6 +26,7 @@ _Auszüge der 3 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
+- 2026-10-19 12:46 · n8n-Forum Jobs · [\[FOR HIRE\] n8n + AI automation engineer (Python backend) - part-time / ongoing, EU](https://community.n8n.io/t/for-hire-n8n-ai-automation-engineer-python-backend-part-time-ongoing-eu/322856)
 - 2026-10-19 07:28 · n8n-Forum Jobs · [\[Available\] n8n + AI automation engineer — self-hosted, part-time, EU hours](https://community.n8n.io/t/available-n8n-ai-automation-engineer-self-hosted-part-time-eu-hours/322775)
 - 2026-10-17 17:49 · n8n-Forum Jobs · [• \[Available\] Hardened n8n & AI Engineer: Database Idempotency + Redis DLQ + WhatsApp Systems](https://community.n8n.io/t/available-hardened-n8n-ai-engineer-database-idempotency-redis-dlq-whatsapp-systems/322231)
 - 2026-10-17 17:41 · n8n-Forum Jobs · [\[Available\] n8n architect from Germany: self-hosted, GDPR-friendly, fixed-price projects](https://community.n8n.io/t/available-n8n-architect-from-germany-self-hosted-gdpr-friendly-fixed-price-projects/322229)
@@ -35,6 +36,6 @@ _Auszüge der 3 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 
 </details>
 
-> Quellen mit Fehlern: r/n8n: 403 Blocked (auch RSS); r/forhire: 403 Blocked (auch RSS); r/automation: 403 Blocked (auch RSS)
+> Quellen mit Fehlern: r/n8n: RSS ohne Einträge (vermutlich blockiert); r/forhire: RSS ohne Einträge (vermutlich blockiert); r/automation: RSS ohne Einträge (vermutlich blockiert)
 
 _Rohdaten pro Quelle (vor Filter): –_
