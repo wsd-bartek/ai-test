@@ -1,16 +1,18 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-22 18:02 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-23 10:11 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 12 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 12 Gesuche (Nachfrage) · 10 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
-| 🆕  | 2026-10-21 12:27 | n8n-Forum Jobs | [Hiring: AI Growth & Automation Specialist \| Remote \| Potential Growth Partnership](https://community.n8n.io/t/hiring-ai-growth-automation-specialist-remote-potential-growth-partnership/323364) | 6 |
+| 🆕  | 2026-10-23 04:25 | n8n-Forum Jobs | [N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)](https://community.n8n.io/t/n8n-expert-needed-ai-whatsapp-support-agent-hindi-english/323862) | 0 |
+| 🆕  | 2026-10-23 04:24 | n8n-Forum Jobs | [N8n Expert Needed: AI Content Engine (Video → Multi-Channel Content, Hindi + English)](https://community.n8n.io/t/n8n-expert-needed-ai-content-engine-video-multi-channel-content-hindi-english/323860) | 0 |
+|  | 2026-10-21 12:27 | n8n-Forum Jobs | [Hiring: AI Growth & Automation Specialist \| Remote \| Potential Growth Partnership](https://community.n8n.io/t/hiring-ai-growth-automation-specialist-remote-potential-growth-partnership/323364) | 6 |
 |  | 2026-10-19 02:44 | n8n-Forum Jobs | [Stop calling it "workflow automation." That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.](https://community.n8n.io/t/stop-calling-it-workflow-automation-thats-what-someone-does-in-an-afternoon-with-three-zapier-nodes-and-a-prayer-i-design-systems/322645) | 0 |
 |  | 2026-10-18 22:16 | n8n-Forum Jobs | [*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo](https://community.n8n.io/t/titulo-en-espanol-necesito-setup-completo-en-n8n-drive-a-100-cuentas-automatico-yo-no-se-nada-necesito-todo-listo/322466) | 0 |
 |  | 2026-10-18 19:32 | n8n-Forum Jobs | [\[HIRING\] Shopify tracking + n8n specialist, part-time ongoing, $35/hr guaranteed + revenue share](https://community.n8n.io/t/hiring-shopify-tracking-n8n-specialist-part-time-ongoing-35-hr-guaranteed-revenue-share/322445) | 1 |
@@ -22,7 +24,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-14 07:03 | n8n-Forum Jobs | [Looking for Founding n8n Automation Creators \| Osmium](https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244) | 7 |
 
 
-_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
+_Auszüge der 3 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
@@ -36,8 +38,6 @@ _Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 - 2026-10-15 15:33 · n8n-Forum Jobs · [\[For Hire\] n8n + AI automations: lead triage, invoice/PDF extraction, RAG assistants, WhatsApp Cloud API](https://community.n8n.io/t/for-hire-n8n-ai-automations-lead-triage-invoice-pdf-extraction-rag-assistants-whatsapp-cloud-api/321695)
 - 2026-10-14 00:23 · n8n-Forum Jobs · [\[For Hire\] Fixed-price n8n and AI automations, built and tested (UK)](https://community.n8n.io/t/for-hire-fixed-price-n8n-and-ai-automations-built-and-tested-uk/321190)
 - 2026-10-13 21:57 · n8n-Forum Jobs · [\[Available for Hire\] n8n + WhatsApp Cloud API specialist — AI attendance/lead engines in production (EN/PT/ES)](https://community.n8n.io/t/available-for-hire-n8n-whatsapp-cloud-api-specialist-ai-attendance-lead-engines-in-production-en-pt-es/321179)
-- 2026-10-13 09:58 · n8n-Forum Jobs · [\[For Hire\] n8n & AI Automation, API Integrations, Web Apps](https://community.n8n.io/t/for-hire-n8n-ai-automation-api-integrations-web-apps/321091)
-- 2026-10-12 18:30 · n8n-Forum Jobs · [\[For Hire\] API/webhook duplicate and data-validation diagnostics — from $50](https://community.n8n.io/t/for-hire-api-webhook-duplicate-and-data-validation-diagnostics-from-50/320875)
 
 </details>
 
