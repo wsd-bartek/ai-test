@@ -1,16 +1,16 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-24 09:36 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-24 16:41 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 8 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 9 Gesuche (Nachfrage) · 8 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
-| 🆕  | 2026-10-23 04:25 | n8n-Forum Jobs | [N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)](https://community.n8n.io/t/n8n-expert-needed-ai-whatsapp-support-agent-hindi-english/323862) | 0 |
+|  | 2026-10-23 04:25 | n8n-Forum Jobs | [N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)](https://community.n8n.io/t/n8n-expert-needed-ai-whatsapp-support-agent-hindi-english/323862) | 0 |
 |  | 2026-10-21 12:27 | n8n-Forum Jobs | [Hiring: AI Growth & Automation Specialist \| Remote \| Potential Growth Partnership](https://community.n8n.io/t/hiring-ai-growth-automation-specialist-remote-potential-growth-partnership/323364) | 6 |
 |  | 2026-10-19 02:44 | n8n-Forum Jobs | [Stop calling it "workflow automation." That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.](https://community.n8n.io/t/stop-calling-it-workflow-automation-thats-what-someone-does-in-an-afternoon-with-three-zapier-nodes-and-a-prayer-i-design-systems/322645) | 0 |
 |  | 2026-10-18 22:16 | n8n-Forum Jobs | [*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo](https://community.n8n.io/t/titulo-en-espanol-necesito-setup-completo-en-n8n-drive-a-100-cuentas-automatico-yo-no-se-nada-necesito-todo-listo/322466) | 0 |
@@ -19,7 +19,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-16 20:38 | n8n-Forum Jobs | [N8n + MirrorFly Developer for Video Conferencing Automation](https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016) | 7 |
 |  | 2026-10-16 17:28 | n8n-Forum Jobs | [Free pilot: checking differences between two CSV exports](https://community.n8n.io/t/free-pilot-checking-differences-between-two-csv-exports/321881) | 12 |
 |  | 2026-10-14 19:43 | n8n-Forum Jobs | [Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet](https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496) | 5 |
-|  | 2026-10-14 13:55 | n8n-Forum Jobs | [\[HIRING\] AI / n8n builders in SEA for small, paid SME automation jobs (Singapore)](https://community.n8n.io/t/hiring-ai-n8n-builders-in-sea-for-small-paid-sme-automation-jobs-singapore/321311) | 4 |
 
 
 _Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
