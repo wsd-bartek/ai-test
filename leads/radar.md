@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-24 19:33 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-25 09:53 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 9 Gesuche (Nachfrage) · 8 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 8 Gesuche (Nachfrage) · 8 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -18,10 +18,8 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-17 01:01 | n8n-Forum Jobs | [Workflow Automation for a fee](https://community.n8n.io/t/workflow-automation-for-a-fee/322096) | 0 |
 |  | 2026-10-16 20:38 | n8n-Forum Jobs | [N8n + MirrorFly Developer for Video Conferencing Automation](https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016) | 7 |
 |  | 2026-10-16 17:28 | n8n-Forum Jobs | [Free pilot: checking differences between two CSV exports](https://community.n8n.io/t/free-pilot-checking-differences-between-two-csv-exports/321881) | 12 |
-|  | 2026-10-14 19:43 | n8n-Forum Jobs | [Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet](https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496) | 5 |
 
 
-_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
