@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-25 09:53 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-25 17:05 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 8 Gesuche (Nachfrage) · 8 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 8 Gesuche (Nachfrage) · 7 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -30,7 +30,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 - 2026-10-17 17:49 · n8n-Forum Jobs · [• \[Available\] Hardened n8n & AI Engineer: Database Idempotency + Redis DLQ + WhatsApp Systems](https://community.n8n.io/t/available-hardened-n8n-ai-engineer-database-idempotency-redis-dlq-whatsapp-systems/322231)
 - 2026-10-17 17:41 · n8n-Forum Jobs · [\[Available\] n8n architect from Germany: self-hosted, GDPR-friendly, fixed-price projects](https://community.n8n.io/t/available-n8n-architect-from-germany-self-hosted-gdpr-friendly-fixed-price-projects/322229)
 - 2026-10-17 13:06 · n8n-Forum Jobs · [\[For Hire\] Fixed-price n8n workflow reliability audit - I read your workflow and tell you where it breaks](https://community.n8n.io/t/for-hire-fixed-price-n8n-workflow-reliability-audit-i-read-your-workflow-and-tell-you-where-it-breaks/322193)
-- 2026-10-15 15:33 · n8n-Forum Jobs · [\[For Hire\] n8n + AI automations: lead triage, invoice/PDF extraction, RAG assistants, WhatsApp Cloud API](https://community.n8n.io/t/for-hire-n8n-ai-automations-lead-triage-invoice-pdf-extraction-rag-assistants-whatsapp-cloud-api/321695)
 
 </details>
 
