@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-26 11:14 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-26 19:23 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -10,6 +10,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
+| 🆕  | 2026-10-26 09:40 | n8n-Forum Jobs | [Looking for referral and sales partners for n8n & AI automation (B2B: Revenue Sharing)](https://community.n8n.io/t/looking-for-referral-and-sales-partners-for-n8n-ai-automation-b2b-revenue-sharing/324646) | 0 |
 | 🆕  | 2026-10-26 02:50 | n8n-Forum Jobs | [\[HIRING\] Digital Projects & AI Assistant \| Remote freelance 50%+ \| French or Italian](https://community.n8n.io/t/hiring-digital-projects-ai-assistant-remote-freelance-50-french-or-italian/324430) | 0 |
 | 🆕  | 2026-10-26 02:41 | n8n-Forum Jobs | [Looking for an AI WhatsApp Business Chatbot Developer — Long-Term Collaboration](https://community.n8n.io/t/looking-for-an-ai-whatsapp-business-chatbot-developer-long-term-collaboration/324371) | 0 |
 |  | 2026-10-23 04:25 | n8n-Forum Jobs | [N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)](https://community.n8n.io/t/n8n-expert-needed-ai-whatsapp-support-agent-hindi-english/323862) | 0 |
@@ -19,10 +20,9 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-18 19:32 | n8n-Forum Jobs | [\[HIRING\] Shopify tracking + n8n specialist, part-time ongoing, $35/hr guaranteed + revenue share](https://community.n8n.io/t/hiring-shopify-tracking-n8n-specialist-part-time-ongoing-35-hr-guaranteed-revenue-share/322445) | 1 |
 |  | 2026-10-17 01:01 | n8n-Forum Jobs | [Workflow Automation for a fee](https://community.n8n.io/t/workflow-automation-for-a-fee/322096) | 0 |
 |  | 2026-10-16 20:38 | n8n-Forum Jobs | [N8n + MirrorFly Developer for Video Conferencing Automation](https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016) | 7 |
-|  | 2026-10-16 17:28 | n8n-Forum Jobs | [Free pilot: checking differences between two CSV exports](https://community.n8n.io/t/free-pilot-checking-differences-between-two-csv-exports/321881) | 12 |
 
 
-_Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
+_Auszüge der 3 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
@@ -36,6 +36,6 @@ _Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 
 </details>
 
-> Quellen mit Fehlern: r/n8n: 403 Blocked (auch RSS); r/forhire: 403 Blocked (auch RSS); r/automation: 403 Blocked (auch RSS)
+> Quellen mit Fehlern: r/n8n: RSS ohne Einträge (vermutlich blockiert); r/forhire: RSS ohne Einträge (vermutlich blockiert); r/automation: RSS ohne Einträge (vermutlich blockiert)
 
 _Rohdaten pro Quelle (vor Filter): –_
