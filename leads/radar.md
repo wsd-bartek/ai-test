@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-26 19:23 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-27 10:40 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 7 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 8 Gesuche (Nachfrage) · 7 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -18,8 +18,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-19 02:44 | n8n-Forum Jobs | [Stop calling it "workflow automation." That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.](https://community.n8n.io/t/stop-calling-it-workflow-automation-thats-what-someone-does-in-an-afternoon-with-three-zapier-nodes-and-a-prayer-i-design-systems/322645) | 0 |
 |  | 2026-10-18 22:16 | n8n-Forum Jobs | [*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo](https://community.n8n.io/t/titulo-en-espanol-necesito-setup-completo-en-n8n-drive-a-100-cuentas-automatico-yo-no-se-nada-necesito-todo-listo/322466) | 0 |
 |  | 2026-10-18 19:32 | n8n-Forum Jobs | [\[HIRING\] Shopify tracking + n8n specialist, part-time ongoing, $35/hr guaranteed + revenue share](https://community.n8n.io/t/hiring-shopify-tracking-n8n-specialist-part-time-ongoing-35-hr-guaranteed-revenue-share/322445) | 1 |
-|  | 2026-10-17 01:01 | n8n-Forum Jobs | [Workflow Automation for a fee](https://community.n8n.io/t/workflow-automation-for-a-fee/322096) | 0 |
-|  | 2026-10-16 20:38 | n8n-Forum Jobs | [N8n + MirrorFly Developer for Video Conferencing Automation](https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016) | 7 |
 
 
 _Auszüge der 3 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
