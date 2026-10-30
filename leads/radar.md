@@ -1,15 +1,16 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-30 11:27 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-10-30 18:40 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 6 Gesuche (Nachfrage) · 2 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 7 Gesuche (Nachfrage) · 0 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
+| 🆕  | 2026-10-30 12:42 | n8n-Forum Jobs | [Looking for Business Development & Client Acquisition Partners for AI Coders \| AI Automation Agency](https://community.n8n.io/t/looking-for-business-development-client-acquisition-partners-for-ai-coders-ai-automation-agency/325466) | 0 |
 |  | 2026-10-28 16:01 | n8n-Forum Jobs | [Hiring: AI Workflow Engineer at 7shifts (Remote - Canada/US only)](https://community.n8n.io/t/hiring-ai-workflow-engineer-at-7shifts-remote-canada-us-only/325192) | 0 |
 |  | 2026-10-26 09:40 | n8n-Forum Jobs | [Looking for referral and sales partners for n8n & AI automation (B2B: Revenue Sharing)](https://community.n8n.io/t/looking-for-referral-and-sales-partners-for-n8n-ai-automation-b2b-revenue-sharing/324646) | 0 |
 |  | 2026-10-26 02:50 | n8n-Forum Jobs | [\[HIRING\] Digital Projects & AI Assistant \| Remote freelance 50%+ \| French or Italian](https://community.n8n.io/t/hiring-digital-projects-ai-assistant-remote-freelance-50-french-or-italian/324430) | 0 |
@@ -22,8 +23,6 @@ _Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Dat
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
-- 2026-10-20 17:03 · n8n-Forum Jobs · [\[For Hire\] One JavaScript/Python data-mapping fix around n8n — USD60](https://community.n8n.io/t/for-hire-one-javascript-python-data-mapping-fix-around-n8n-usd60/323073)
-- 2026-10-20 16:05 · n8n-Forum Jobs · [\[FOR HIRE/CONTRACTOR\] n8n automation builder – self-hosted, production systems, Italy (CET)](https://community.n8n.io/t/for-hire-contractor-n8n-automation-builder-self-hosted-production-systems-italy-cet/323062)
 
 </details>
 
