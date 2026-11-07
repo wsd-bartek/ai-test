@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-07 11:47 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-07 18:05 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 8 Gesuche (Nachfrage) · 1 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 7 Gesuche (Nachfrage) · 1 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -17,7 +17,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-11-02 09:06 | n8n-Forum Jobs | [Looking for n8n contractors for ongoing project work](https://community.n8n.io/t/looking-for-n8n-contractors-for-ongoing-project-work/325902) | 0 |
 |  | 2026-11-01 00:50 | n8n-Forum Jobs | [Hiring in San Diego (n8n & hubspot)](https://community.n8n.io/t/hiring-in-san-diego-n8n-hubspot/325678) | 0 |
 |  | 2026-10-30 12:42 | n8n-Forum Jobs | [Looking for Business Development & Client Acquisition Partners for AI Coders \| AI Automation Agency](https://community.n8n.io/t/looking-for-business-development-client-acquisition-partners-for-ai-coders-ai-automation-agency/325466) | 0 |
-|  | 2026-10-28 16:01 | n8n-Forum Jobs | [Hiring: AI Workflow Engineer at 7shifts (Remote - Canada/US only)](https://community.n8n.io/t/hiring-ai-workflow-engineer-at-7shifts-remote-canada-us-only/325192) | 0 |
 
 
 _Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
