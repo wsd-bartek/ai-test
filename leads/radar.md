@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-06 19:58 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-07 11:47 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -20,7 +20,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-10-28 16:01 | n8n-Forum Jobs | [Hiring: AI Workflow Engineer at 7shifts (Remote - Canada/US only)](https://community.n8n.io/t/hiring-ai-workflow-engineer-at-7shifts-remote-canada-us-only/325192) | 0 |
 
 
-_Auszüge der 3 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
+_Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
