@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-10 13:35 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-10 22:24 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -21,7 +21,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-11-01 00:50 | n8n-Forum Jobs | [Hiring in San Diego (n8n & hubspot)](https://community.n8n.io/t/hiring-in-san-diego-n8n-hubspot/325678) | 0 |
 
 
-_Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
