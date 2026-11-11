@@ -1,15 +1,16 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-11 12:47 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-11 20:14 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 9 Gesuche (Nachfrage) · 0 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 10 Gesuche (Nachfrage) · 0 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
+| 🆕  | 2026-11-11 14:47 | n8n-Forum Jobs | [\[HIRING\] Founding n8n Builders for US Small-Business Client Work \| Freelance, Remote](https://community.n8n.io/t/hiring-founding-n8n-builders-for-us-small-business-client-work-freelance-remote/328131) | 0 |
 | 🆕  | 2026-11-11 04:42 | n8n-Forum Jobs | [\[HIRING\] Freelancer for Custom AI-Powered Marketing Attribution & Lead Automation Pipeline Project](https://community.n8n.io/t/hiring-freelancer-for-custom-ai-powered-marketing-attribution-lead-automation-pipeline-project/328000) | 0 |
 |  | 2026-11-08 20:43 | n8n-Forum Jobs | [\[HIRING\] Agency Operations & AI Systems Builder \| Remote, part-time](https://community.n8n.io/t/hiring-agency-operations-ai-systems-builder-remote-part-time/327583) | 0 |
 |  | 2026-11-08 14:08 | n8n-Forum Jobs | [Looking for BD & Referral Partners — Remote, Commission-Based](https://community.n8n.io/t/looking-for-bd-referral-partners-remote-commission-based/327476) | 0 |
@@ -21,7 +22,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-11-02 09:06 | n8n-Forum Jobs | [Looking for n8n contractors for ongoing project work](https://community.n8n.io/t/looking-for-n8n-contractors-for-ongoing-project-work/325902) | 0 |
 
 
-_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
+_Auszüge der 2 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
