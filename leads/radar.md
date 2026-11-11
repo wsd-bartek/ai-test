@@ -1,6 +1,6 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-10 22:24 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-11 12:47 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
@@ -10,6 +10,7 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 
 | Neu | Datum (UTC) | Quelle | Gesuch | Antworten |
 |---|---|---|---|---|
+| 🆕  | 2026-11-11 04:42 | n8n-Forum Jobs | [\[HIRING\] Freelancer for Custom AI-Powered Marketing Attribution & Lead Automation Pipeline Project](https://community.n8n.io/t/hiring-freelancer-for-custom-ai-powered-marketing-attribution-lead-automation-pipeline-project/328000) | 0 |
 |  | 2026-11-08 20:43 | n8n-Forum Jobs | [\[HIRING\] Agency Operations & AI Systems Builder \| Remote, part-time](https://community.n8n.io/t/hiring-agency-operations-ai-systems-builder-remote-part-time/327583) | 0 |
 |  | 2026-11-08 14:08 | n8n-Forum Jobs | [Looking for BD & Referral Partners — Remote, Commission-Based](https://community.n8n.io/t/looking-for-bd-referral-partners-remote-commission-based/327476) | 0 |
 |  | 2026-11-08 03:58 | n8n-Forum Jobs | [Applications are now OPEN: AI & Workflow Automation Internship by Muslim Revive Skills (MRS)](https://community.n8n.io/t/applications-are-now-open-ai-workflow-automation-internship-by-muslim-revive-skills-mrs/327427) | 0 |
@@ -18,9 +19,9 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-11-05 01:48 | n8n-Forum Jobs | [Looking to Hire an n8n Expert to Build a Lead Management Automation Workflow](https://community.n8n.io/t/looking-to-hire-an-n8n-expert-to-build-a-lead-management-automation-workflow/326857) | 5 |
 |  | 2026-11-04 11:29 | n8n-Forum Jobs | [Volunteer AI ambassadors and advisers wanted (AI agents and operators), paid on results](https://community.n8n.io/t/volunteer-ai-ambassadors-and-advisers-wanted-ai-agents-and-operators-paid-on-results/326558) | 0 |
 |  | 2026-11-02 09:06 | n8n-Forum Jobs | [Looking for n8n contractors for ongoing project work](https://community.n8n.io/t/looking-for-n8n-contractors-for-ongoing-project-work/325902) | 0 |
-|  | 2026-11-01 00:50 | n8n-Forum Jobs | [Hiring in San Diego (n8n & hubspot)](https://community.n8n.io/t/hiring-in-san-diego-n8n-hubspot/325678) | 0 |
 
 
+_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
