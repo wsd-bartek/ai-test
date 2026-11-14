@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-13 20:31 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-14 12:17 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 9 Gesuche (Nachfrage) · 0 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 8 Gesuche (Nachfrage) · 0 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -18,7 +18,6 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-11-06 16:56 | n8n-Forum Jobs | [\[HIRING\] Full-Time Close CRM & n8n Automation Engineer \| Remote \| $2,000–$3,000 USD/Month](https://community.n8n.io/t/hiring-full-time-close-crm-n8n-automation-engineer-remote-2-000-3-000-usd-month/327196) | 0 |
 |  | 2026-11-06 11:17 | n8n-Forum Jobs | [Need help regarding n8n AI assistant and workflow. Please help i can pay you](https://community.n8n.io/t/need-help-regarding-n8n-ai-assistant-and-workflow-please-help-i-can-pay-you/327075) | 0 |
 |  | 2026-11-05 01:48 | n8n-Forum Jobs | [Looking to Hire an n8n Expert to Build a Lead Management Automation Workflow](https://community.n8n.io/t/looking-to-hire-an-n8n-expert-to-build-a-lead-management-automation-workflow/326857) | 5 |
-|  | 2026-11-04 11:29 | n8n-Forum Jobs | [Volunteer AI ambassadors and advisers wanted (AI agents and operators), paid on results](https://community.n8n.io/t/volunteer-ai-ambassadors-and-advisers-wanted-ai-agents-and-operators-paid-on-results/326558) | 0 |
 
 
 
