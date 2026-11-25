@@ -1,10 +1,10 @@
 # Lead-Radar
 
-Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-25 01:27 UTC
+Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 Tage. Stand: 2026-11-25 15:45 UTC
 
 **So nutzt du die Liste:** Passenden Eintrag öffnen, prüfen, ob er noch offen ist, und Titel und Text an den Agenten geben. Der schreibt die Antwort plus Prototyp. Nur auf echte Gesuche antworten, Forenregeln beachten (siehe `sales/proposals.md`).
 
-**Markt (10 Tage):** 4 Gesuche (Nachfrage) · 0 Selbstangebote von Freelancern (Konkurrenz)
+**Markt (10 Tage):** 4 Gesuche (Nachfrage) · 1 Selbstangebote von Freelancern (Konkurrenz)
 
 ## Gesuche (Nachfrage)
 
@@ -16,10 +16,10 @@ Automatisch aktualisiert (GitHub Actions). Öffentliche Gesuche der letzten 10 T
 |  | 2026-11-17 02:14 | n8n-Forum Jobs | [\[HIRING\] Freelancer for Airtable Workflow \| Remote](https://community.n8n.io/t/hiring-freelancer-for-airtable-workflow-remote/329131) | 0 |
 
 
-_Auszüge der 1 neuen Gesuche stehen im Log des Action-Laufs (nicht im Repo, Datenschutz)._
 
 <details><summary>Selbstangebote anderer Freelancer (zur Wettbewerbsbeobachtung)</summary>
 
+- 2026-11-24 13:22 · n8n-Forum Jobs · [Looking for Small n8n Automation Projects \| AI Agents, WhatsApp, Telegram, Gmail & Google Sheets](https://community.n8n.io/t/looking-for-small-n8n-automation-projects-ai-agents-whatsapp-telegram-gmail-google-sheets/330606)
 
 </details>
 
